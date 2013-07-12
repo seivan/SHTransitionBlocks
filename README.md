@@ -1,4 +1,4 @@
-SHMessageUI
+SHMessageUIBlocks
 ==========
 
 Overview
@@ -7,18 +7,18 @@ The blocks are automatically removed once the alert is gone, so it isn't necessa
 
 ### API
 
-#### [Init](https://github.com/seivan/SHAlertViewBlocks#init-1)
+#### [Init](https://github.com/seivan/SHMessageUIBlocks#init-1)
 
-#### [Add](https://github.com/seivan/SHAlertViewBlocks#add-1)
+#### [Add](https://github.com/seivan/SHMessageUIBlocks#add-1)
 
-#### [Properties](https://github.com/seivan/SHAlertViewBlocks#properties-1)
+#### [Properties](https://github.com/seivan/SHMessageUIBlocks#properties-1)
 
 
 Installation
 ------------
 
 ```ruby
-pod 'SHMessageUI'
+pod 'SHMessageUIBlocks'
 ```
 
 ***
@@ -29,11 +29,11 @@ Setup
 Put this either in specific files or your project prefix file
 
 ```objective-c
-#import "UIAlertView+SHAlertViewBlocks.h"
+#import "MFMailComposeViewController+SHMessageUIBlocks.h"
 ```
 or
 ```objective-c
-#import "SHAlertViewBlocks.h"
+#import "MFMessageComposeViewController+SHMessageUIBlocks.h"
 ```
 
 API
