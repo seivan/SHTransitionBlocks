@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  name           = "SHAlertViewBlocks"
+  name           = "SHMessageUI"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
   s.name         = name
