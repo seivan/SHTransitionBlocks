@@ -1,2090 +1,890 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>047699ECFA164E4AB6621C32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1330171C54BE4BCA86807A1C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>04AE7B3414304A1F873F4755</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14A65EEAC71646ACA5AB04EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>120551FD124343E392EAD08F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIViewController+SHSegueBlocks.m</string>
-			<key>path</key>
-			<string>SHSegueBlocks/SHSegueBlocks/UIViewController+SHSegueBlocks.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1330171C54BE4BCA86807A1C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SHObjectUserInfo.a</string>
-			<key>path</key>
-			<string>libPods-SHObjectUserInfo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>14A65EEAC71646ACA5AB04EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SHObjectUserInfo.h</string>
-			<key>path</key>
-			<string>SHObjectUserInfo/SHObjectUserInfo/SHObjectUserInfo.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>19A5ECECA1F64F9189E21A68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B5EC3B704DC4262A37E3641</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1BC0A1B21E634A98ABBA86A0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C69A25A53CAA466C82A7ABB4</string>
-				<string>5382468F13A14AB8AAB93767</string>
-				<string>C99F74314E7C48DBA304F964</string>
-				<string>CE98939C97084CD6BE38A4F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1CEB2FC6C5BB4531A7C2A6DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHObjectUserInfo.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1D3CBDCE73124C749DF5809D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1D8732013329444685F363A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks-dummy.m</string>
-			<key>path</key>
-			<string>Pods-SHSegueBlocks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1E1242ECBF9F4DB9990FFF86</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>91ADC5B27BA84478A84A277E</string>
-				<string>606D23A564BE4CD9ACCA8B5F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2C63675229F040C6A9720B57</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ADA9FAE4917240759660E028</string>
-				<string>1BC0A1B21E634A98ABBA86A0</string>
-				<string>B0E81586D4E44498A412368E</string>
-				<string>CF1AE6C9454340078363D6A6</string>
-				<string>3167EDD681F04777A9C4D35F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D82B3454F344949AFF9A7AD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6D8B756D45414AABA231C4CD</string>
-				<string>F03ACA869B14477BB5D37E09</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2F48026F70434E72A1F30C52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo-Private.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHObjectUserInfo-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3167EDD681F04777A9C4D35F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>633706C237B546CCA6346AC6</string>
-				<string>9B485C700A0D4961871F258C</string>
-				<string>67EEF6C1C9C04B36A87F97A0</string>
-				<string>1D3CBDCE73124C749DF5809D</string>
-				<string>AB1C24A8CFD646998720146C</string>
-				<string>BA9A1F62D08F41E6922264F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32250A55B5E240D78F7DA9F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BCCDA5FC624B448F5D58A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>33BBAFA952DC48C08798BB2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHSegueBlocks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3429222C569C49498461F2FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks-Private.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHAlertViewBlocks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3D876AB5445846BD9AE2E9A5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4BCCDA5FC624B448F5D58A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F46620E946D4179B92F829B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>50AA982840784660A5D45318</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3FDC037F0AA84D4B93620C84</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C3C3FB2B09484E7B9DC09C3A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>445035EFCCA3424DB66EAA54</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A468B62ABA364135AD98F627</string>
-				<string>EC63FC8F3703400696E95947</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>467AE383130348EF863F980D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3A343D2B4AF44C29C53853F</string>
-				<string>5BA5FA22E48941129280367E</string>
-				<string>7F00BA10CA144BD5B3B354FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SHAlertViewBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>489B14CEA8D147448A797B21</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2F48026F70434E72A1F30C52</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHObjectUserInfo-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4ABD6D675A95483EBE283079</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>32250A55B5E240D78F7DA9F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4D765860D8304BB9873F4218</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D217ACBDBEAF47629D8B25AB</string>
-				<string>04AE7B3414304A1F873F4755</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>50AA982840784660A5D45318</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BCCDA5FC624B448F5D58A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5382468F13A14AB8AAB93767</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks-Private.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHBarButtonItemBlocks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>53A7F24BE32D401EA43A1A2A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1E1242ECBF9F4DB9990FFF86</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2D82B3454F344949AFF9A7AD</string>
-				<string>3F46620E946D4179B92F829B</string>
-				<string>57C621980AE646549B98C240</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks</string>
-			<key>productName</key>
-			<string>Pods-SHAlertViewBlocks</string>
-			<key>productReference</key>
-			<string>E78AC7304D7F42CFBA6A16F3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>53DE52A43FC5438BAB9427A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SHSegueBlocks.h</string>
-			<key>path</key>
-			<string>SHSegueBlocks/SHSegueBlocks/SHSegueBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>54DD3045D0FA4F23B33B9E5E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2F48026F70434E72A1F30C52</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHObjectUserInfo-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>56662BAEC1C84A0DBBA48D8F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>847DA469B5BF47B7AEDA6CAC</string>
-				<string>7B5EC3B704DC4262A37E3641</string>
-				<string>E111AEE8DAA541A79218FD61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SHBarButtonItemBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57C621980AE646549B98C240</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8A3F8BB129E047B68E0B53DD</string>
-				<string>EADE4E3998CD4ECBBB9E250F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5A2D82F36FA045FD89A79369</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>53DE52A43FC5438BAB9427A1</string>
-				<string>86C3384404D54107AA86D393</string>
-				<string>120551FD124343E392EAD08F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SHSegueBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B6CBE02C5374F9C95A0B567</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BCCDA5FC624B448F5D58A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5BA5FA22E48941129280367E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIAlertView+SHAlertViewBlocks.h</string>
-			<key>path</key>
-			<string>../../SHAlertViewBlocks/UIAlertView+SHAlertViewBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5EE8F2D2B3804820B1C54A41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>76280166B52A43C6B66A9C30</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>604E202F1DE6412299D4420B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DDD804C83C324173A501D4FB</string>
-				<string>B42FDEFC23764FE6B2C43DE7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>606D23A564BE4CD9ACCA8B5F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3429222C569C49498461F2FF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHAlertViewBlocks-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>62C3BB7B845E4893BACB36E9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>ADC68736100A429D801DF1C5</string>
-				<string>A34D9C17E1FA4CAB8038F781</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>633706C237B546CCA6346AC6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6741A6B76FB04F56AA48DEA3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>467AE383130348EF863F980D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Local Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67EEF6C1C9C04B36A87F97A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>68A63BF37D204DEAA155AFAD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6ADC207505434D09829C1706</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6D8B756D45414AABA231C4CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F00BA10CA144BD5B3B354FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>6E6452FB8C0E4FF288B60D90</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DDC7BF1C2F8E4D1AB4A2B76A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C9E62BDAEA6A4B409A42BBD8</string>
-				<string>3FDC037F0AA84D4B93620C84</string>
-				<string>8E2F8E4B1A644D59BEC2FFCE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks</string>
-			<key>productName</key>
-			<string>Pods-SHBarButtonItemBlocks</string>
-			<key>productReference</key>
-			<string>76280166B52A43C6B66A9C30</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6F9EBD8817B942E9B3F28F0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA9A1F62D08F41E6922264F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7512C249CC3947E5909D6909</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHAlertViewBlocks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>76280166B52A43C6B66A9C30</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SHBarButtonItemBlocks.a</string>
-			<key>path</key>
-			<string>libPods-SHBarButtonItemBlocks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>793F2199C809477E99BCB101</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>62C3BB7B845E4893BACB36E9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C0DFC50EFEF648ACB429756A</string>
-				<string>C2B79B9FC5A24722A3BFB254</string>
-				<string>B779545CA6BA4C33BE1627A0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks</string>
-			<key>productName</key>
-			<string>Pods-SHSegueBlocks</string>
-			<key>productReference</key>
-			<string>AEBE1F8573AF40969F081115</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7A39D9CC21F848C897303877</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>7A8D63FAF0D5409BB969C72D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AC9E97E634D547AEADBAB4AF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>604E202F1DE6412299D4420B</string>
-				<string>4ABD6D675A95483EBE283079</string>
-				<string>4D765860D8304BB9873F4218</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo</string>
-			<key>productName</key>
-			<string>Pods-SHObjectUserInfo</string>
-			<key>productReference</key>
-			<string>1330171C54BE4BCA86807A1C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7AA7E3FB16FB422A8076BAD0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6F9EBD8817B942E9B3F28F0B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7B5EC3B704DC4262A37E3641</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIBarButtonItem+SHBarButtonItemBlocks.h</string>
-			<key>path</key>
-			<string>SHBarButtonItemBlocks/SHBarButtonItemBlocks/UIBarButtonItem+SHBarButtonItemBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7B9ACFB25BA748F1A9FEC7B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E78AC7304D7F42CFBA6A16F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>7F00BA10CA144BD5B3B354FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIAlertView+SHAlertViewBlocks.m</string>
-			<key>path</key>
-			<string>../../SHAlertViewBlocks/UIAlertView+SHAlertViewBlocks.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>80F849BD757B4F63BAE1DC57</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-SHAlertViewBlocks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8189FABBA25548CBAB8FD633</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks-dummy.m</string>
-			<key>path</key>
-			<string>Pods-SHAlertViewBlocks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>841D4CFF0BCE40F580EEB765</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSObject+SHObjectUserInfo.h</string>
-			<key>path</key>
-			<string>SHObjectUserInfo/SHObjectUserInfo/NSObject+SHObjectUserInfo.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>847DA469B5BF47B7AEDA6CAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SHBarButtonItemBlocks.h</string>
-			<key>path</key>
-			<string>SHBarButtonItemBlocks/SHBarButtonItemBlocks/SHBarButtonItemBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8663C918BD704C85AD50A376</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86C3384404D54107AA86D393</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>86C3384404D54107AA86D393</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIViewController+SHSegueBlocks.h</string>
-			<key>path</key>
-			<string>SHSegueBlocks/SHSegueBlocks/UIViewController+SHSegueBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8774544FC9CB4852AC88FCE7</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>68A63BF37D204DEAA155AFAD</string>
-				<string>8D27001C847E4404BE20D9D0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>88F818026D74465EADD63ACB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-SHSegueBlocks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8A3F8BB129E047B68E0B53DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3A343D2B4AF44C29C53853F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8C5DD79C6BB04B7587B6199B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-SHObjectUserInfo-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8D27001C847E4404BE20D9D0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8E2F8E4B1A644D59BEC2FFCE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A6DD025E0CAE437584AF66DC</string>
-				<string>19A5ECECA1F64F9189E21A68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>91ADC5B27BA84478A84A277E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3429222C569C49498461F2FF</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHAlertViewBlocks-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9631A2CF19C549DB81C3DC08</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>445035EFCCA3424DB66EAA54</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7AA7E3FB16FB422A8076BAD0</string>
-				<string>B18B16199D224719911C93D3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>6ADC207505434D09829C1706</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9B485C700A0D4961871F258C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-environment.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9B971D29A66B44A7AFFF33AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BCCDA5FC624B448F5D58A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A09FE355946949F990A7449B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>841D4CFF0BCE40F580EEB765</string>
-				<string>DAC8D358EA4547029FC30232</string>
-				<string>14A65EEAC71646ACA5AB04EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SHObjectUserInfo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A22DAE40784C405CBE27BBA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53DE52A43FC5438BAB9427A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A34D9C17E1FA4CAB8038F781</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6FD288D94424BC791861828</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHSegueBlocks-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A3A343D2B4AF44C29C53853F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SHAlertViewBlocks.h</string>
-			<key>path</key>
-			<string>../../SHAlertViewBlocks/SHAlertViewBlocks.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A468B62ABA364135AD98F627</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>633706C237B546CCA6346AC6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A6DD025E0CAE437584AF66DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>847DA469B5BF47B7AEDA6CAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>AB1C24A8CFD646998720146C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AC9E97E634D547AEADBAB4AF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>489B14CEA8D147448A797B21</string>
-				<string>54DD3045D0FA4F23B33B9E5E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>ADA9FAE4917240759660E028</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7512C249CC3947E5909D6909</string>
-				<string>3429222C569C49498461F2FF</string>
-				<string>80F849BD757B4F63BAE1DC57</string>
-				<string>8189FABBA25548CBAB8FD633</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SHAlertViewBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ADC68736100A429D801DF1C5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6FD288D94424BC791861828</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHSegueBlocks-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>AE7F4C7E26D5419DA5A9C848</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>56662BAEC1C84A0DBBA48D8F</string>
-				<string>A09FE355946949F990A7449B</string>
-				<string>5A2D82F36FA045FD89A79369</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEBE1F8573AF40969F081115</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SHSegueBlocks.a</string>
-			<key>path</key>
-			<string>libPods-SHSegueBlocks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B0E81586D4E44498A412368E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1CEB2FC6C5BB4531A7C2A6DE</string>
-				<string>2F48026F70434E72A1F30C52</string>
-				<string>8C5DD79C6BB04B7587B6199B</string>
-				<string>B8ECBFAC90EF42329D04EF0A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B18B16199D224719911C93D3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9B971D29A66B44A7AFFF33AB</string>
-				<string>7B9ACFB25BA748F1A9FEC7B3</string>
-				<string>5EE8F2D2B3804820B1C54A41</string>
-				<string>047699ECFA164E4AB6621C32</string>
-				<string>BC72F2713B944E79B62802E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2BBBA1D8628403CA482AB95</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5382468F13A14AB8AAB93767</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHBarButtonItemBlocks-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B42FDEFC23764FE6B2C43DE7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8ECBFAC90EF42329D04EF0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B6FD288D94424BC791861828</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks-Private.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHSegueBlocks-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B779545CA6BA4C33BE1627A0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A22DAE40784C405CBE27BBA6</string>
-				<string>8663C918BD704C85AD50A376</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B8ECBFAC90EF42329D04EF0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-SHObjectUserInfo-dummy.m</string>
-			<key>path</key>
-			<string>Pods-SHObjectUserInfo-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BA9A1F62D08F41E6922264F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-dummy.m</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BC72F2713B944E79B62802E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEBE1F8573AF40969F081115</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C0DFC50EFEF648ACB429756A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E79CB0DA422B4D15839DF2EE</string>
-				<string>D221EB442EE64ADBBB0A7798</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C2B79B9FC5A24722A3BFB254</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5B6CBE02C5374F9C95A0B567</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C3C3FB2B09484E7B9DC09C3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4BCCDA5FC624B448F5D58A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C4BCCDA5FC624B448F5D58A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C69A25A53CAA466C82A7ABB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SHBarButtonItemBlocks.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C8578A0477014FEE8C7A4C9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE98939C97084CD6BE38A4F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>C99F74314E7C48DBA304F964</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-SHBarButtonItemBlocks-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C9E62BDAEA6A4B409A42BBD8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FF3308154E824B1099F15A40</string>
-				<string>C8578A0477014FEE8C7A4C9E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CB8CA2CC6BC346B98E07C7D3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3D876AB5445846BD9AE2E9A5</string>
-				<string>6741A6B76FB04F56AA48DEA3</string>
-				<string>AE7F4C7E26D5419DA5A9C848</string>
-				<string>DFA407CCA505427FA99145E9</string>
-				<string>2C63675229F040C6A9720B57</string>
-				<string>7A39D9CC21F848C897303877</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE98939C97084CD6BE38A4F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-SHBarButtonItemBlocks-dummy.m</string>
-			<key>path</key>
-			<string>Pods-SHBarButtonItemBlocks-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CF1AE6C9454340078363D6A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>33BBAFA952DC48C08798BB2A</string>
-				<string>B6FD288D94424BC791861828</string>
-				<string>88F818026D74465EADD63ACB</string>
-				<string>1D8732013329444685F363A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SHSegueBlocks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D0BB6139785E4D61B1504EB2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5382468F13A14AB8AAB93767</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-SHBarButtonItemBlocks-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D217ACBDBEAF47629D8B25AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>841D4CFF0BCE40F580EEB765</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D221EB442EE64ADBBB0A7798</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D8732013329444685F363A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>DAC8D358EA4547029FC30232</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSObject+SHObjectUserInfo.m</string>
-			<key>path</key>
-			<string>SHObjectUserInfo/SHObjectUserInfo/NSObject+SHObjectUserInfo.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DDC7BF1C2F8E4D1AB4A2B76A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D0BB6139785E4D61B1504EB2</string>
-				<string>B2BBBA1D8628403CA482AB95</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DDD804C83C324173A501D4FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DAC8D358EA4547029FC30232</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>DFA407CCA505427FA99145E9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E78AC7304D7F42CFBA6A16F3</string>
-				<string>76280166B52A43C6B66A9C30</string>
-				<string>1330171C54BE4BCA86807A1C</string>
-				<string>AEBE1F8573AF40969F081115</string>
-				<string>6ADC207505434D09829C1706</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E111AEE8DAA541A79218FD61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIBarButtonItem+SHBarButtonItemBlocks.m</string>
-			<key>path</key>
-			<string>SHBarButtonItemBlocks/SHBarButtonItemBlocks/UIBarButtonItem+SHBarButtonItemBlocks.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E78AC7304D7F42CFBA6A16F3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SHAlertViewBlocks.a</string>
-			<key>path</key>
-			<string>libPods-SHAlertViewBlocks.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E79CB0DA422B4D15839DF2EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>120551FD124343E392EAD08F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>E7AD06E00369402389A8A975</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8774544FC9CB4852AC88FCE7</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>CB8CA2CC6BC346B98E07C7D3</string>
-			<key>productRefGroup</key>
-			<string>DFA407CCA505427FA99145E9</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>53A7F24BE32D401EA43A1A2A</string>
-				<string>6E6452FB8C0E4FF288B60D90</string>
-				<string>7A8D63FAF0D5409BB969C72D</string>
-				<string>793F2199C809477E99BCB101</string>
-				<string>9631A2CF19C549DB81C3DC08</string>
-			</array>
-		</dict>
-		<key>EADE4E3998CD4ECBBB9E250F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5BA5FA22E48941129280367E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>EC63FC8F3703400696E95947</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>633706C237B546CCA6346AC6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F03ACA869B14477BB5D37E09</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8189FABBA25548CBAB8FD633</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>FF3308154E824B1099F15A40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E111AEE8DAA541A79218FD61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>E7AD06E00369402389A8A975</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A0F9FF12834919BC47ADCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB204C735F741A58DD38B18 /* Foundation.framework */; };
+		37ADEEF702264328AC0B4D7F /* UIAlertView+SHAlertViewBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4C78CE28FD4304BF0FD1C0 /* UIAlertView+SHAlertViewBlocks.h */; };
+		3A4285A5912E422CAEFA4161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB204C735F741A58DD38B18 /* Foundation.framework */; };
+		3F00EBE9F87B4758A1004B1A /* _SHComposerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CE8E217DE9468B8523BE65 /* _SHComposerManager.h */; };
+		48E9A38A369846AB9A3E1473 /* UIBarButtonItem+SHBarButtonItemBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = CD68D6CA8AE34A5CAAA9CB65 /* UIBarButtonItem+SHBarButtonItemBlocks.h */; };
+		4EA26A9C4CCE4D7B9D801FC7 /* NSObject+SHObjectUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F6DF3C6D20430884E4AA33 /* NSObject+SHObjectUserInfo.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		57F255D30F40429E85BC8182 /* libPods-SHMessageUIBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E23B712BE224201B91BA047 /* libPods-SHMessageUIBlocks.a */; };
+		58979F87311443658928FA14 /* UIAlertView+SHAlertViewBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CAF0EF9AE34A09A9D10D99 /* UIAlertView+SHAlertViewBlocks.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		60D9BF441D93423A8602A751 /* libPods-SHObjectUserInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2E079BE91F4CE7AA1C29BA /* libPods-SHObjectUserInfo.a */; };
+		65D1D1B215B841DEBE14806F /* UIBarButtonItem+SHBarButtonItemBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FE20F12634C06B9EAF0CD /* UIBarButtonItem+SHBarButtonItemBlocks.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6DBC367DCB3F47D28E8F2796 /* MFMessageComposeViewController+SHMessageUIBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D180DD843244565BA41DB25 /* MFMessageComposeViewController+SHMessageUIBlocks.h */; };
+		73560FA03F6F4586B635D118 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CAE9092EB249BC92E0AE1C /* Pods-dummy.m */; };
+		7A9B1E45148E4B1E8699F8B0 /* MFMailComposeViewController+SHMessageUIBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB6EB35CD8E4AD6AC9E0853 /* MFMailComposeViewController+SHMessageUIBlocks.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		89BE2157492443CCBBA39252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB204C735F741A58DD38B18 /* Foundation.framework */; };
+		89E3CF5B4F994C2CB4D4087E /* UIViewController+SHSegueBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C03EF9FC854F71AE583933 /* UIViewController+SHSegueBlocks.h */; };
+		8F72E5820C594E7E852B3AA2 /* _SHComposerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 538913FF0A374A739F800ABF /* _SHComposerManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		95822EC6F64542C695778011 /* NSObject+SHObjectUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BC58F5E9159C4A4E8DEC7B56 /* NSObject+SHObjectUserInfo.h */; };
+		9EC9EA90DF81462EAEEF76E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB204C735F741A58DD38B18 /* Foundation.framework */; };
+		A09C1635FDDD47D0B5E4F5D1 /* UIViewController+SHSegueBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A431031FFA404D9E81BE8B6D /* UIViewController+SHSegueBlocks.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A7AD8D8536F54DA7BEB2B893 /* Pods-SHObjectUserInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D4998952804534AB39F5F0 /* Pods-SHObjectUserInfo-dummy.m */; };
+		ABF50428456C4E15950B5DD5 /* Pods-SHMessageUIBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B93C4A908B294AE18A641EFF /* Pods-SHMessageUIBlocks-dummy.m */; };
+		B43D4814C4E84204A0D74104 /* Pods-SHBarButtonItemBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51015E873A37460192D1F8BB /* Pods-SHBarButtonItemBlocks-dummy.m */; };
+		BAB2A8984BFC442C8A2FF04E /* SHObjectUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F815543E8BE74773A69CEB90 /* SHObjectUserInfo.h */; };
+		C2AF65A9159F4F0BA2C0BD29 /* SHSegueBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BBA5A45EC64449D9A3F16ED /* SHSegueBlocks.h */; };
+		C8CC18F6D40E4EB59E903F96 /* libPods-SHBarButtonItemBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3378BA1584A948E9847574EC /* libPods-SHBarButtonItemBlocks.a */; };
+		DC27DFE8FD2C40438F7352DF /* SHMessageUIBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 718B37C52E71405AA1AF2027 /* SHMessageUIBlocks.h */; };
+		DC6EC96028F04090B7BC66EA /* SHBarButtonItemBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CEFDA4EDDB479DBFEE4776 /* SHBarButtonItemBlocks.h */; };
+		E0D276534BC8445ABD79B2B8 /* MFMailComposeViewController+SHMessageUIBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2CC2BD363541598A9E6144 /* MFMailComposeViewController+SHMessageUIBlocks.h */; };
+		EE544034226C49D781728C04 /* libPods-SHSegueBlocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 483896AC8A9E4CA99EE7EF70 /* libPods-SHSegueBlocks.a */; };
+		F7A2FCCBA996465F830FFCEF /* MFMessageComposeViewController+SHMessageUIBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDED7B238D4F64BC01CBB9 /* MFMessageComposeViewController+SHMessageUIBlocks.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F8065DCB0A7A4BBEB449BB9E /* Pods-SHSegueBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2511AE0A01448E4831F8B2D /* Pods-SHSegueBlocks-dummy.m */; };
+		F879ACAEF68E48B397AC89D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB204C735F741A58DD38B18 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E23B712BE224201B91BA047 /* libPods-SHMessageUIBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHMessageUIBlocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF0F7EF73ED451FBF8A6B6A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		0FEF113296AA42099D3D67E7 /* Pods-SHObjectUserInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHObjectUserInfo.xcconfig"; sourceTree = SOURCE_ROOT; };
+		16CE8E217DE9468B8523BE65 /* _SHComposerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _SHComposerManager.h; path = ../../SHMessageUIBlocks/_SHComposerManager.h; sourceTree = SOURCE_ROOT; };
+		1BBA5A45EC64449D9A3F16ED /* SHSegueBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHSegueBlocks.h; path = SHSegueBlocks/SHSegueBlocks/SHSegueBlocks.h; sourceTree = SOURCE_ROOT; };
+		28481C4211AF40389AE9C8C9 /* MessageUI.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		30CEFDA4EDDB479DBFEE4776 /* SHBarButtonItemBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHBarButtonItemBlocks.h; path = SHBarButtonItemBlocks/SHBarButtonItemBlocks/SHBarButtonItemBlocks.h; sourceTree = SOURCE_ROOT; };
+		3137256A6B12484DABBF0F56 /* Pods-SHMessageUIBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHMessageUIBlocks-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3378BA1584A948E9847574EC /* libPods-SHBarButtonItemBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHBarButtonItemBlocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		340BA18FB5694CCDBD220D3F /* Pods-SHBarButtonItemBlocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHBarButtonItemBlocks-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3CCE2B357BC14B8E83E8B26D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		40355FEDCB604678BE990D45 /* Pods-SHObjectUserInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHObjectUserInfo-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		483896AC8A9E4CA99EE7EF70 /* libPods-SHSegueBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHSegueBlocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEDA0A1D7224A45BC97C6B0 /* Pods-SHSegueBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHSegueBlocks.xcconfig"; sourceTree = SOURCE_ROOT; };
+		4E2CC2BD363541598A9E6144 /* MFMailComposeViewController+SHMessageUIBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMailComposeViewController+SHMessageUIBlocks.h"; path = "../../SHMessageUIBlocks/MFMailComposeViewController+SHMessageUIBlocks.h"; sourceTree = SOURCE_ROOT; };
+		51015E873A37460192D1F8BB /* Pods-SHBarButtonItemBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHBarButtonItemBlocks-dummy.m"; sourceTree = SOURCE_ROOT; };
+		538913FF0A374A739F800ABF /* _SHComposerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _SHComposerManager.m; path = ../../SHMessageUIBlocks/_SHComposerManager.m; sourceTree = SOURCE_ROOT; };
+		5D180DD843244565BA41DB25 /* MFMessageComposeViewController+SHMessageUIBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MFMessageComposeViewController+SHMessageUIBlocks.h"; path = "../../SHMessageUIBlocks/MFMessageComposeViewController+SHMessageUIBlocks.h"; sourceTree = SOURCE_ROOT; };
+		61E043D8B874452B9D05D2AF /* Pods-SHSegueBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHSegueBlocks-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		62EF30B4FAF5433DB6973930 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		65CE40D1307B4D0CA11A2279 /* Pods-SHBarButtonItemBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHBarButtonItemBlocks.xcconfig"; sourceTree = SOURCE_ROOT; };
+		699EE4950C594CC3A3DA97A1 /* Pods-SHSegueBlocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHSegueBlocks-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		69CAF0EF9AE34A09A9D10D99 /* UIAlertView+SHAlertViewBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SHAlertViewBlocks.m"; path = "../../SHMessageUIBlocks/UIAlertView+SHAlertViewBlocks.m"; sourceTree = SOURCE_ROOT; };
+		718B37C52E71405AA1AF2027 /* SHMessageUIBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHMessageUIBlocks.h; path = ../../SHMessageUIBlocks/SHMessageUIBlocks.h; sourceTree = SOURCE_ROOT; };
+		74C03EF9FC854F71AE583933 /* UIViewController+SHSegueBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SHSegueBlocks.h"; path = "SHSegueBlocks/SHSegueBlocks/UIViewController+SHSegueBlocks.h"; sourceTree = SOURCE_ROOT; };
+		7BB6EB35CD8E4AD6AC9E0853 /* MFMailComposeViewController+SHMessageUIBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMailComposeViewController+SHMessageUIBlocks.m"; path = "../../SHMessageUIBlocks/MFMailComposeViewController+SHMessageUIBlocks.m"; sourceTree = SOURCE_ROOT; };
+		8F9BB930631942A88B10B30F /* Pods-SHMessageUIBlocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMessageUIBlocks.xcconfig"; sourceTree = SOURCE_ROOT; };
+		93D4998952804534AB39F5F0 /* Pods-SHObjectUserInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHObjectUserInfo-dummy.m"; sourceTree = SOURCE_ROOT; };
+		99F6DF3C6D20430884E4AA33 /* NSObject+SHObjectUserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SHObjectUserInfo.m"; path = "SHObjectUserInfo/SHObjectUserInfo/NSObject+SHObjectUserInfo.m"; sourceTree = SOURCE_ROOT; };
+		99FDED7B238D4F64BC01CBB9 /* MFMessageComposeViewController+SHMessageUIBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MFMessageComposeViewController+SHMessageUIBlocks.m"; path = "../../SHMessageUIBlocks/MFMessageComposeViewController+SHMessageUIBlocks.m"; sourceTree = SOURCE_ROOT; };
+		9A9FE20F12634C06B9EAF0CD /* UIBarButtonItem+SHBarButtonItemBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+SHBarButtonItemBlocks.m"; path = "SHBarButtonItemBlocks/SHBarButtonItemBlocks/UIBarButtonItem+SHBarButtonItemBlocks.m"; sourceTree = SOURCE_ROOT; };
+		A19912D923D244C48FB289B2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		A2511AE0A01448E4831F8B2D /* Pods-SHSegueBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHSegueBlocks-dummy.m"; sourceTree = SOURCE_ROOT; };
+		A431031FFA404D9E81BE8B6D /* UIViewController+SHSegueBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SHSegueBlocks.m"; path = "SHSegueBlocks/SHSegueBlocks/UIViewController+SHSegueBlocks.m"; sourceTree = SOURCE_ROOT; };
+		AB0B9341EB8344B2BFFCE1D6 /* Pods-SHBarButtonItemBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHBarButtonItemBlocks-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		AC263D85E9D44934AEF3B82C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1CAE9092EB249BC92E0AE1C /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		B27F97388DBC4BBFBB37E830 /* Pods-SHObjectUserInfo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHObjectUserInfo-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		B93C4A908B294AE18A641EFF /* Pods-SHMessageUIBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHMessageUIBlocks-dummy.m"; sourceTree = SOURCE_ROOT; };
+		BC58F5E9159C4A4E8DEC7B56 /* NSObject+SHObjectUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SHObjectUserInfo.h"; path = "SHObjectUserInfo/SHObjectUserInfo/NSObject+SHObjectUserInfo.h"; sourceTree = SOURCE_ROOT; };
+		CD4C78CE28FD4304BF0FD1C0 /* UIAlertView+SHAlertViewBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SHAlertViewBlocks.h"; path = "../../SHMessageUIBlocks/UIAlertView+SHAlertViewBlocks.h"; sourceTree = SOURCE_ROOT; };
+		CD68D6CA8AE34A5CAAA9CB65 /* UIBarButtonItem+SHBarButtonItemBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+SHBarButtonItemBlocks.h"; path = "SHBarButtonItemBlocks/SHBarButtonItemBlocks/UIBarButtonItem+SHBarButtonItemBlocks.h"; sourceTree = SOURCE_ROOT; };
+		CDB204C735F741A58DD38B18 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1D00187DF634E17AACF78A9 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		F55A62427C41467C916FF3D0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F815543E8BE74773A69CEB90 /* SHObjectUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHObjectUserInfo.h; path = SHObjectUserInfo/SHObjectUserInfo/SHObjectUserInfo.h; sourceTree = SOURCE_ROOT; };
+		FAC5B8B5AA3B441EAAA8506B /* Pods-SHMessageUIBlocks-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHMessageUIBlocks-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		FF2E079BE91F4CE7AA1C29BA /* libPods-SHObjectUserInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHObjectUserInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5CBAF417B94159B7727E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC9EA90DF81462EAEEF76E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B012228D7EC4DAFB30D3282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BE2157492443CCBBA39252 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E0AF0BE192401F9EB68D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4285A5912E422CAEFA4161 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5F1A0E0F9F46228E74C9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F879ACAEF68E48B397AC89D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB39B72F44964E6F8BC364BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0F9FF12834919BC47ADCD /* Foundation.framework in Frameworks */,
+				C8CC18F6D40E4EB59E903F96 /* libPods-SHBarButtonItemBlocks.a in Frameworks */,
+				57F255D30F40429E85BC8182 /* libPods-SHMessageUIBlocks.a in Frameworks */,
+				60D9BF441D93423A8602A751 /* libPods-SHObjectUserInfo.a in Frameworks */,
+				EE544034226C49D781728C04 /* libPods-SHSegueBlocks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29BCEC291B6248168DDD2F51 /* SHBarButtonItemBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				30CEFDA4EDDB479DBFEE4776 /* SHBarButtonItemBlocks.h */,
+				CD68D6CA8AE34A5CAAA9CB65 /* UIBarButtonItem+SHBarButtonItemBlocks.h */,
+				9A9FE20F12634C06B9EAF0CD /* UIBarButtonItem+SHBarButtonItemBlocks.m */,
+			);
+			name = SHBarButtonItemBlocks;
+			sourceTree = "<group>";
+		};
+		3E027019BD804F3F9315B6E7 /* SHObjectUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BC58F5E9159C4A4E8DEC7B56 /* NSObject+SHObjectUserInfo.h */,
+				99F6DF3C6D20430884E4AA33 /* NSObject+SHObjectUserInfo.m */,
+				F815543E8BE74773A69CEB90 /* SHObjectUserInfo.h */,
+			);
+			name = SHObjectUserInfo;
+			sourceTree = "<group>";
+		};
+		5DE54F5B6F6A4853B3F2734C /* Pods-SHBarButtonItemBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				65CE40D1307B4D0CA11A2279 /* Pods-SHBarButtonItemBlocks.xcconfig */,
+				340BA18FB5694CCDBD220D3F /* Pods-SHBarButtonItemBlocks-Private.xcconfig */,
+				AB0B9341EB8344B2BFFCE1D6 /* Pods-SHBarButtonItemBlocks-prefix.pch */,
+				51015E873A37460192D1F8BB /* Pods-SHBarButtonItemBlocks-dummy.m */,
+			);
+			name = "Pods-SHBarButtonItemBlocks";
+			sourceTree = "<group>";
+		};
+		67B9A27CBEC34B31A4DC2B47 /* SHSegueBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBA5A45EC64449D9A3F16ED /* SHSegueBlocks.h */,
+				74C03EF9FC854F71AE583933 /* UIViewController+SHSegueBlocks.h */,
+				A431031FFA404D9E81BE8B6D /* UIViewController+SHSegueBlocks.m */,
+			);
+			name = SHSegueBlocks;
+			sourceTree = "<group>";
+		};
+		75C8BDEE5DA74005A95C3EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3378BA1584A948E9847574EC /* libPods-SHBarButtonItemBlocks.a */,
+				0E23B712BE224201B91BA047 /* libPods-SHMessageUIBlocks.a */,
+				FF2E079BE91F4CE7AA1C29BA /* libPods-SHObjectUserInfo.a */,
+				483896AC8A9E4CA99EE7EF70 /* libPods-SHSegueBlocks.a */,
+				F55A62427C41467C916FF3D0 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A5CD936B764DF483EAEB6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62EF30B4FAF5433DB6973930 /* Pods.xcconfig */,
+				A19912D923D244C48FB289B2 /* Pods-environment.h */,
+				0EF0F7EF73ED451FBF8A6B6A /* Pods-resources.sh */,
+				3CCE2B357BC14B8E83E8B26D /* Pods-acknowledgements.plist */,
+				D1D00187DF634E17AACF78A9 /* Pods-acknowledgements.markdown */,
+				B1CAE9092EB249BC92E0AE1C /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89BD7C47E6184B3382B57DED /* Pods-SHObjectUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF113296AA42099D3D67E7 /* Pods-SHObjectUserInfo.xcconfig */,
+				B27F97388DBC4BBFBB37E830 /* Pods-SHObjectUserInfo-Private.xcconfig */,
+				40355FEDCB604678BE990D45 /* Pods-SHObjectUserInfo-prefix.pch */,
+				93D4998952804534AB39F5F0 /* Pods-SHObjectUserInfo-dummy.m */,
+			);
+			name = "Pods-SHObjectUserInfo";
+			sourceTree = "<group>";
+		};
+		8A0A738B5B4548A3BAC3B631 /* Pods-SHMessageUIBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				8F9BB930631942A88B10B30F /* Pods-SHMessageUIBlocks.xcconfig */,
+				FAC5B8B5AA3B441EAAA8506B /* Pods-SHMessageUIBlocks-Private.xcconfig */,
+				3137256A6B12484DABBF0F56 /* Pods-SHMessageUIBlocks-prefix.pch */,
+				B93C4A908B294AE18A641EFF /* Pods-SHMessageUIBlocks-dummy.m */,
+			);
+			name = "Pods-SHMessageUIBlocks";
+			sourceTree = "<group>";
+		};
+		AD479BB73C1B462AAC587D06 = {
+			isa = PBXGroup;
+			children = (
+				C3F3BD50AF4647459DA0469A /* Frameworks */,
+				BDE52C743ECE4E729C5B7910 /* Local Pods */,
+				E0F2505176AD4241AC6781D8 /* Pods */,
+				75C8BDEE5DA74005A95C3EC7 /* Products */,
+				FBA4F215F83746C1BBED5A2F /* Targets Support Files */,
+				AC263D85E9D44934AEF3B82C /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0701E6044947B38BBE70D7 /* Pods-SHSegueBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDA0A1D7224A45BC97C6B0 /* Pods-SHSegueBlocks.xcconfig */,
+				699EE4950C594CC3A3DA97A1 /* Pods-SHSegueBlocks-Private.xcconfig */,
+				61E043D8B874452B9D05D2AF /* Pods-SHSegueBlocks-prefix.pch */,
+				A2511AE0A01448E4831F8B2D /* Pods-SHSegueBlocks-dummy.m */,
+			);
+			name = "Pods-SHSegueBlocks";
+			sourceTree = "<group>";
+		};
+		BDE52C743ECE4E729C5B7910 /* Local Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C510C0FE0F7440B0AB375A69 /* SHMessageUIBlocks */,
+			);
+			name = "Local Pods";
+			sourceTree = "<group>";
+		};
+		C3F3BD50AF4647459DA0469A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB204C735F741A58DD38B18 /* Foundation.framework */,
+				28481C4211AF40389AE9C8C9 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C510C0FE0F7440B0AB375A69 /* SHMessageUIBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				718B37C52E71405AA1AF2027 /* SHMessageUIBlocks.h */,
+				16CE8E217DE9468B8523BE65 /* _SHComposerManager.h */,
+				538913FF0A374A739F800ABF /* _SHComposerManager.m */,
+				4E2CC2BD363541598A9E6144 /* MFMailComposeViewController+SHMessageUIBlocks.h */,
+				7BB6EB35CD8E4AD6AC9E0853 /* MFMailComposeViewController+SHMessageUIBlocks.m */,
+				5D180DD843244565BA41DB25 /* MFMessageComposeViewController+SHMessageUIBlocks.h */,
+				99FDED7B238D4F64BC01CBB9 /* MFMessageComposeViewController+SHMessageUIBlocks.m */,
+				CD4C78CE28FD4304BF0FD1C0 /* UIAlertView+SHAlertViewBlocks.h */,
+				69CAF0EF9AE34A09A9D10D99 /* UIAlertView+SHAlertViewBlocks.m */,
+			);
+			name = SHMessageUIBlocks;
+			sourceTree = "<group>";
+		};
+		E0F2505176AD4241AC6781D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29BCEC291B6248168DDD2F51 /* SHBarButtonItemBlocks */,
+				3E027019BD804F3F9315B6E7 /* SHObjectUserInfo */,
+				67B9A27CBEC34B31A4DC2B47 /* SHSegueBlocks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBA4F215F83746C1BBED5A2F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE54F5B6F6A4853B3F2734C /* Pods-SHBarButtonItemBlocks */,
+				8A0A738B5B4548A3BAC3B631 /* Pods-SHMessageUIBlocks */,
+				89BD7C47E6184B3382B57DED /* Pods-SHObjectUserInfo */,
+				AF0701E6044947B38BBE70D7 /* Pods-SHSegueBlocks */,
+				79A5CD936B764DF483EAEB6A /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D298B1353C54AE29C8DC27F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95822EC6F64542C695778011 /* NSObject+SHObjectUserInfo.h in Headers */,
+				BAB2A8984BFC442C8A2FF04E /* SHObjectUserInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF636A7D9164008A19B4C3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F00EBE9F87B4758A1004B1A /* _SHComposerManager.h in Headers */,
+				E0D276534BC8445ABD79B2B8 /* MFMailComposeViewController+SHMessageUIBlocks.h in Headers */,
+				6DBC367DCB3F47D28E8F2796 /* MFMessageComposeViewController+SHMessageUIBlocks.h in Headers */,
+				DC27DFE8FD2C40438F7352DF /* SHMessageUIBlocks.h in Headers */,
+				37ADEEF702264328AC0B4D7F /* UIAlertView+SHAlertViewBlocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A4515B055047DDB20D62F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6EC96028F04090B7BC66EA /* SHBarButtonItemBlocks.h in Headers */,
+				48E9A38A369846AB9A3E1473 /* UIBarButtonItem+SHBarButtonItemBlocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B70B99D60B4994897162FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AF65A9159F4F0BA2C0BD29 /* SHSegueBlocks.h in Headers */,
+				89E3CF5B4F994C2CB4D4087E /* UIViewController+SHSegueBlocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F897FC3AC3349CB8A3FCAF8 /* Pods-SHBarButtonItemBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F34090222B4DF5B835FCCE /* Build configuration list for PBXNativeTarget "Pods-SHBarButtonItemBlocks" */;
+			buildPhases = (
+				F1DEE3B6FE7A47A2BCDE1DBA /* Sources */,
+				1F5CBAF417B94159B7727E63 /* Frameworks */,
+				97A4515B055047DDB20D62F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SHBarButtonItemBlocks";
+			productName = "Pods-SHBarButtonItemBlocks";
+			productReference = 3378BA1584A948E9847574EC /* libPods-SHBarButtonItemBlocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CFDC535E92C439D9F693679 /* Pods-SHSegueBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FE1525EE0043E284C41903 /* Build configuration list for PBXNativeTarget "Pods-SHSegueBlocks" */;
+			buildPhases = (
+				AC4D5B283EB642D89C4E3280 /* Sources */,
+				7B012228D7EC4DAFB30D3282 /* Frameworks */,
+				B1B70B99D60B4994897162FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SHSegueBlocks";
+			productName = "Pods-SHSegueBlocks";
+			productReference = 483896AC8A9E4CA99EE7EF70 /* libPods-SHSegueBlocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F38D14E048C4B419B911529 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223E21E75E624CA29BED84E8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				160593F9BEDA4EA58655CBF9 /* Sources */,
+				FB39B72F44964E6F8BC364BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F55A62427C41467C916FF3D0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A471BF2C5B8143C89105228B /* Pods-SHObjectUserInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBE9D35F8934842A49FB3BF /* Build configuration list for PBXNativeTarget "Pods-SHObjectUserInfo" */;
+			buildPhases = (
+				2F99E0CD5BEB496A982B70BC /* Sources */,
+				B9E0AF0BE192401F9EB68D75 /* Frameworks */,
+				1D298B1353C54AE29C8DC27F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SHObjectUserInfo";
+			productName = "Pods-SHObjectUserInfo";
+			productReference = FF2E079BE91F4CE7AA1C29BA /* libPods-SHObjectUserInfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8DE29D1D30D4BBB9A4D5E1A /* Pods-SHMessageUIBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF88C13E5714E37AA108F67 /* Build configuration list for PBXNativeTarget "Pods-SHMessageUIBlocks" */;
+			buildPhases = (
+				0BDEEB1C251544D79E1C5A21 /* Sources */,
+				EA5F1A0E0F9F46228E74C9BD /* Frameworks */,
+				6EF636A7D9164008A19B4C3D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SHMessageUIBlocks";
+			productName = "Pods-SHMessageUIBlocks";
+			productReference = 0E23B712BE224201B91BA047 /* libPods-SHMessageUIBlocks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE692435BC24B6DB8DEB85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 7FE18BBF600A46AA89F29087 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD479BB73C1B462AAC587D06;
+			productRefGroup = 75C8BDEE5DA74005A95C3EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F897FC3AC3349CB8A3FCAF8 /* Pods-SHBarButtonItemBlocks */,
+				F8DE29D1D30D4BBB9A4D5E1A /* Pods-SHMessageUIBlocks */,
+				A471BF2C5B8143C89105228B /* Pods-SHObjectUserInfo */,
+				6CFDC535E92C439D9F693679 /* Pods-SHSegueBlocks */,
+				9F38D14E048C4B419B911529 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDEEB1C251544D79E1C5A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72E5820C594E7E852B3AA2 /* _SHComposerManager.m in Sources */,
+				7A9B1E45148E4B1E8699F8B0 /* MFMailComposeViewController+SHMessageUIBlocks.m in Sources */,
+				F7A2FCCBA996465F830FFCEF /* MFMessageComposeViewController+SHMessageUIBlocks.m in Sources */,
+				58979F87311443658928FA14 /* UIAlertView+SHAlertViewBlocks.m in Sources */,
+				ABF50428456C4E15950B5DD5 /* Pods-SHMessageUIBlocks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160593F9BEDA4EA58655CBF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73560FA03F6F4586B635D118 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F99E0CD5BEB496A982B70BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA26A9C4CCE4D7B9D801FC7 /* NSObject+SHObjectUserInfo.m in Sources */,
+				A7AD8D8536F54DA7BEB2B893 /* Pods-SHObjectUserInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D5B283EB642D89C4E3280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09C1635FDDD47D0B5E4F5D1 /* UIViewController+SHSegueBlocks.m in Sources */,
+				F8065DCB0A7A4BBEB449BB9E /* Pods-SHSegueBlocks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DEE3B6FE7A47A2BCDE1DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D1D1B215B841DEBE14806F /* UIBarButtonItem+SHBarButtonItemBlocks.m in Sources */,
+				B43D4814C4E84204A0D74104 /* Pods-SHBarButtonItemBlocks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16CC93A4535449339E026173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EF30B4FAF5433DB6973930 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270727D58AEF4D9EBD1212AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340BA18FB5694CCDBD220D3F /* Pods-SHBarButtonItemBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHBarButtonItemBlocks-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8E5B0D871A42C0BE4D7E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EF30B4FAF5433DB6973930 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5962CEE816C2408F93B3E3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		6D3028CCA6574237864A1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC5B8B5AA3B441EAAA8506B /* Pods-SHMessageUIBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHMessageUIBlocks-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B57FBF173B426D81D7FE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27F97388DBC4BBFBB37E830 /* Pods-SHObjectUserInfo-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHObjectUserInfo-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819640F00D3D4851B045018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC5B8B5AA3B441EAAA8506B /* Pods-SHMessageUIBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHMessageUIBlocks-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81CD54E856E44FBD80CD2986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340BA18FB5694CCDBD220D3F /* Pods-SHBarButtonItemBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHBarButtonItemBlocks-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C59B264534954C8E976B7017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		CD92FAE6030A496097EAA3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699EE4950C594CC3A3DA97A1 /* Pods-SHSegueBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHSegueBlocks-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D962E2C85044FCBCB20EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27F97388DBC4BBFBB37E830 /* Pods-SHObjectUserInfo-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHObjectUserInfo-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F706ADF7B3E142E583E4E8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699EE4950C594CC3A3DA97A1 /* Pods-SHSegueBlocks-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-SHSegueBlocks-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223E21E75E624CA29BED84E8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CC93A4535449339E026173 /* Release */,
+				3B8E5B0D871A42C0BE4D7E78 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBE9D35F8934842A49FB3BF /* Build configuration list for PBXNativeTarget "Pods-SHObjectUserInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B57FBF173B426D81D7FE3C /* Release */,
+				D0D962E2C85044FCBCB20EE0 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FE1525EE0043E284C41903 /* Build configuration list for PBXNativeTarget "Pods-SHSegueBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92FAE6030A496097EAA3B0 /* Release */,
+				F706ADF7B3E142E583E4E8BD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF88C13E5714E37AA108F67 /* Build configuration list for PBXNativeTarget "Pods-SHMessageUIBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D3028CCA6574237864A1BD7 /* Release */,
+				819640F00D3D4851B045018A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE18BBF600A46AA89F29087 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5962CEE816C2408F93B3E3A2 /* Release */,
+				C59B264534954C8E976B7017 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F34090222B4DF5B835FCCE /* Build configuration list for PBXNativeTarget "Pods-SHBarButtonItemBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270727D58AEF4D9EBD1212AC /* Release */,
+				81CD54E856E44FBD80CD2986 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE692435BC24B6DB8DEB85C /* Project object */;
+}

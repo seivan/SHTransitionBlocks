@@ -1,0 +1,1 @@
+../../../../SHMessageUIBlocks/_SHComposerManager.h

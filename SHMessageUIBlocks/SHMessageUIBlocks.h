@@ -1,1 +1,2 @@
-#import "UIAlertView+SHAlertViewBlocks.h"
+#import "MFMailComposeViewController+SHMessageUIBlocks.h"
+#import "MFMessageComposeViewController+SHMessageUIBlocks.h"

@@ -1,22 +1,22 @@
 PODS:
-  - SHAlertViewBlocks (1.0.0)
   - SHBarButtonItemBlocks (1.0.0)
+  - SHMessageUIBlocks (1.0.0)
   - SHObjectUserInfo (1.0.2)
   - SHSegueBlocks (1.1.1):
     - SHObjectUserInfo (~> 1.0.0)
 
 DEPENDENCIES:
-  - SHAlertViewBlocks (from `../`)
   - SHBarButtonItemBlocks
+  - SHMessageUIBlocks (from `../`)
   - SHSegueBlocks
 
 EXTERNAL SOURCES:
-  SHAlertViewBlocks:
+  SHMessageUIBlocks:
     :path: ../
 
 SPEC CHECKSUMS:
-  SHAlertViewBlocks: 34bd05a8108857d3f3fde12e8fc373c752895e36
   SHBarButtonItemBlocks: 246b4aa50ceeb7d99a855ede99dd00fd95d85e0d
+  SHMessageUIBlocks: 4b618fb9029926fcc38c68f593b73f13e8aac501
   SHObjectUserInfo: ec3758f8c54560b771d86ae173607e84cc5cda11
   SHSegueBlocks: 6bcadca3c10a916a0047b7123fa035e38f40cf34
 

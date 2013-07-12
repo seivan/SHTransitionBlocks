@@ -6,17 +6,17 @@
 // project.
 
 
-// SHAlertViewBlocks
-#define COCOAPODS_POD_AVAILABLE_SHAlertViewBlocks
-#define COCOAPODS_VERSION_MAJOR_SHAlertViewBlocks 1
-#define COCOAPODS_VERSION_MINOR_SHAlertViewBlocks 0
-#define COCOAPODS_VERSION_PATCH_SHAlertViewBlocks 0
-
 // SHBarButtonItemBlocks
 #define COCOAPODS_POD_AVAILABLE_SHBarButtonItemBlocks
 #define COCOAPODS_VERSION_MAJOR_SHBarButtonItemBlocks 1
 #define COCOAPODS_VERSION_MINOR_SHBarButtonItemBlocks 0
 #define COCOAPODS_VERSION_PATCH_SHBarButtonItemBlocks 0
+
+// SHMessageUIBlocks
+#define COCOAPODS_POD_AVAILABLE_SHMessageUIBlocks
+#define COCOAPODS_VERSION_MAJOR_SHMessageUIBlocks 1
+#define COCOAPODS_VERSION_MINOR_SHMessageUIBlocks 0
+#define COCOAPODS_VERSION_PATCH_SHMessageUIBlocks 0
 
 // SHObjectUserInfo
 #define COCOAPODS_POD_AVAILABLE_SHObjectUserInfo
