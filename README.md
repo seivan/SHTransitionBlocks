@@ -1,4 +1,4 @@
-SHAlertViewBlocks
+SHMessageUI
 ==========
 
 Overview
@@ -18,7 +18,7 @@ Installation
 ------------
 
 ```ruby
-pod 'SHAlertViewBlocks'
+pod 'SHMessageUI'
 ```
 
 ***
