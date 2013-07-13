@@ -1,1 +1,1 @@
-../../SHBarButtonItemBlocks/SHBarButtonItemBlocks/SHBarButtonItemBlocks.h
+#import "UIBarButtonItem+SHBarButtonItemBlocks.h"
