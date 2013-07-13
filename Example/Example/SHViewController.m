@@ -9,9 +9,10 @@
 
 
 #import "SHViewController.h"
-#import "SHMessageUIBlocks.h"
 
-#import "UINavigationController+SHNavigationControllerBlocks.h"
+#import "MFMailComposeViewController+SHMessageUIBlocks.h"
+
+#import "SHNavigationControllerBlocks.h"
 
 @interface SHViewController ()
 -(void)showEmail;
@@ -35,22 +36,62 @@
 
 }
 -(void)showEmail; {
+  
+  __weak typeof(self) weakSelf = self;
+  __block BOOL composerCompleteTest = NO;
+  __block BOOL willShowTest         = NO;
+  __block BOOL didShowTest          = NO;
 
   MFMailComposeViewController * vc = [MFMailComposeViewController SH_mailComposeViewController];
+  [vc SH_setNavigationBlocks];
+
   
+  dispatch_group_t group = dispatch_group_create();
+  
+  dispatch_group_enter(group);
+
   [vc SH_setComposerCompletionBlock:^(MFMailComposeViewController *theController, MFMailComposeResult theResults, NSError *theError) {
-    [theController dismissViewControllerAnimated:YES completion:nil];
-    [self performSegueWithIdentifier:@"second" sender:nil];
+    
+    SHBlockAssert(theController, @"theController exists");
+    SHBlockAssert(theController.isViewLoaded, @"theController should have its view loaded");
+      
+    __weak typeof(theController) weakController = theController;
+    [theController dismissViewControllerAnimated:YES completion:^{
+      SHBlockAssert(weakController == nil, @"theController should be gone");
+      [weakSelf performSegueWithIdentifier:@"second" sender:nil];
+    }];
+      
+    composerCompleteTest = YES;
+      
+    
+    
+    dispatch_group_leave(group);
   }];
+
   
+  dispatch_group_enter(group);
   [vc SH_setWillShowViewControllerBlock:^(UINavigationController *theNavigationController, UIViewController *theViewController, BOOL isAnimated) {
-    
+    willShowTest = YES;
+    dispatch_group_leave(group);
   }];
+
   
+  dispatch_group_enter(group);
   [vc SH_setDidShowViewControllerBlock:^(UINavigationController *theNavigationController, UIViewController *theViewController, BOOL isAnimated) {
-    
+    didShowTest = YES;
+    dispatch_group_leave(group);
   }];
-  
+
+ 
+  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    dispatch_group_wait(group, DISPATCH_TIME_FOREVER);
+    SHBlockAssert(composerCompleteTest, @"Should call composerCompletionBlock");
+    SHBlockAssert(willShowTest, @"Should call willShowViewControllerBLock");
+    SHBlockAssert(didShowTest, @"Should call didShowViewControllerBLock");
+
+  });
   [self presentViewController:vc animated:YES completion:nil];
+
+
 }
 @end

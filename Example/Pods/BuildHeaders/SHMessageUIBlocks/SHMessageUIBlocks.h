@@ -1,2 +1,1 @@
-#import "MFMailComposeViewController+SHMessageUIBlocks.h"
-#import "MFMessageComposeViewController+SHMessageUIBlocks.h"
+../../../../../SHMessageUIBlocks/SHMessageUIBlocks/SHMessageUIBlocks.h

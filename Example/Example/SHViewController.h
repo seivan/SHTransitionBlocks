@@ -8,5 +8,4 @@
 
 
 @interface SHViewController : UIViewController
-
 @end
