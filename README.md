@@ -47,14 +47,25 @@ API
 ### Setup
 
 ```objective-c
+
 #pragma mark -
 #pragma mark Init
 -(void)SH_setNavigationBlocks;
 
+```
 
 ### Properties
 
 ```objective-c
+
+#pragma mark -
+#pragma mark Block Def
+
+typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigationController,
+                                            UIViewController       * theViewController,
+                                            BOOL                      isAnimated);
+
+                                            
 #pragma mark -
 #pragma mark Properties
 
@@ -70,18 +81,6 @@ API
 
 @property(nonatomic,readonly) SHNavigationControllerBlock SH_blockWillShowViewController;
 @property(nonatomic,readonly) SHNavigationControllerBlock SH_blockDidShowViewController;
-```
-
-### Block Definitions
-
-```objective-c
-#pragma mark -
-#pragma mark Block Def
-
-typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigationController,
-                                            UIViewController       * theViewController,
-                                            BOOL                      isAnimated);
-
 ```
 
 
