@@ -84,16 +84,17 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 +(void)setBlock:(id)theBlock
   forController:(UIViewController *)theController
         withKey:(NSString *)theKey; {
+
   NSAssert(theController, @"Must pass theController");
   
   SHNavigationControllerBlock block = [theBlock copy];
   
   SHNavigationControllerBlockManager * manager = [SHNavigationControllerBlockManager
                                                   sharedManager];
-  NSMutableDictionary * map = [manager.mapBlocks objectForKey:self];
+  NSMutableDictionary * map = [manager.mapBlocks objectForKey:theController];
   if(map == nil) {
     map = [@{} mutableCopy];
-    [manager.mapBlocks setObject:map forKey:self];
+    [manager.mapBlocks setObject:map forKey:theController];
   }
   if(block == nil) {
     [map removeObjectForKey:theKey];
