@@ -1,24 +1,22 @@
-SHMessageUIBlocks
+SHNavigationControllerBlocks
 ==========
 
 Overview
 --------
-The blocks are automatically removed once the alert is gone, so it isn't necessary to clean up - Swizzle Free(™)
+The blocks are automatically removed once they UINavigationController is gone, so it isn't necessary to clean up - Swizzle Free(™)
 
 ### API
 
-#### [Init](https://github.com/seivan/SHMessageUIBlocks#init-1)
+#### [Init](https://github.com/seivan/SHNavigationControllerBlocks#init-1)
 
-#### [Add](https://github.com/seivan/SHMessageUIBlocks#add-1)
-
-#### [Properties](https://github.com/seivan/SHMessageUIBlocks#properties-1)
+#### [Properties](https://github.com/seivan/SHNavigationControllerBlocks#properties-1)
 
 
 Installation
 ------------
 
 ```ruby
-pod 'SHMessageUIBlocks'
+pod 'SHNavigationControllerBlocks'
 ```
 
 ***
@@ -29,11 +27,11 @@ Setup
 Put this either in specific files or your project prefix file
 
 ```objective-c
-#import "MFMailComposeViewController+SHMessageUIBlocks.h"
+#import "UINavigationController+SHNavigationControllerBlocks.h"
 ```
 or
 ```objective-c
-#import "MFMessageComposeViewController+SHMessageUIBlocks.h"
+#import "SHNavigationControllerBlocks.h"
 ```
 
 API
