@@ -1,4 +1,6 @@
 
+#pragma mark -
+#pragma mark Block Def
 typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigationController,
                                             UIViewController       * theViewController,
                                             BOOL                      isAnimated);

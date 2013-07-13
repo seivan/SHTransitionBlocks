@@ -72,6 +72,18 @@ API
 @property(nonatomic,readonly) SHNavigationControllerBlock SH_blockDidShowViewController;
 ```
 
+### Block Definitions
+
+```objective-c
+#pragma mark -
+#pragma mark Block Def
+
+typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigationController,
+                                            UIViewController       * theViewController,
+                                            BOOL                      isAnimated);
+
+```
+
 
 Contact
 -------
