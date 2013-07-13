@@ -1,0 +1,19 @@
+PODS:
+  - SHMessageUIBlocks (1.0.0)
+  - SHNavigationControllerBlocks (1.0.0)
+
+DEPENDENCIES:
+  - SHMessageUIBlocks (from `https://github.com/seivan/SHMessageUIBlocks.git`)
+  - SHNavigationControllerBlocks (from `../`)
+
+EXTERNAL SOURCES:
+  SHMessageUIBlocks:
+    :git: https://github.com/seivan/SHMessageUIBlocks.git
+  SHNavigationControllerBlocks:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SHMessageUIBlocks: 4b618fb9029926fcc38c68f593b73f13e8aac501
+  SHNavigationControllerBlocks: 4d152f2cdd166a3766e0b4f16ef705eef8a6f88c
+
+COCOAPODS: 0.22.2
