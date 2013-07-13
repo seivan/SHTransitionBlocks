@@ -1,1 +1,1 @@
-../../../../../SHMessageUIBlocks/SHMessageUIBlocks/SHMessageUIBlocks.h
+../../SHMessageUIBlocks/SHMessageUIBlocks/SHMessageUIBlocks.h

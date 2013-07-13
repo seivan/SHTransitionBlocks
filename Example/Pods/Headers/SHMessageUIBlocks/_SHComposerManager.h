@@ -1,1 +1,1 @@
-../../../../../SHMessageUIBlocks/SHMessageUIBlocks/_SHComposerManager.h
+../../SHMessageUIBlocks/SHMessageUIBlocks/_SHComposerManager.h

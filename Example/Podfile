@@ -1,3 +1,3 @@
 platform :ios, '6.0' 
 pod 'SHNavigationControllerBlocks', :path => '../'
-pod 'SHMessageUIBlocks', :path => '../../SHMessageUIBlocks'
+pod 'SHMessageUIBlocks', :git => "https://github.com/seivan/SHMessageUIBlocks.git"

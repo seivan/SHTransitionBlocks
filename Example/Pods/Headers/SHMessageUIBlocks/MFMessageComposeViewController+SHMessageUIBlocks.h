@@ -1,1 +1,1 @@
-../../../../../SHMessageUIBlocks/SHMessageUIBlocks/MFMessageComposeViewController+SHMessageUIBlocks.h
+../../SHMessageUIBlocks/SHMessageUIBlocks/MFMessageComposeViewController+SHMessageUIBlocks.h
