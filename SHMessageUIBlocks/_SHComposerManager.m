@@ -5,16 +5,17 @@
 #import "MFMailComposeViewController+SHMessageUIBlocks.h"
 #import "MFMessageComposeViewController+SHMessageUIBlocks.h"
 
-@interface _SHComposerManager ()
-<UINavigationControllerDelegate,
-MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
+@interface _SHComposerBlocksManager ()
+<MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
 
 @property(nonatomic,strong)   NSMapTable   * mapBlocks;
+
++(instancetype)sharedManager;
 -(void)SH_memoryDebugger;
 
 @end
 
-@implementation _SHComposerManager
+@implementation _SHComposerBlocksManager
 
 #pragma mark -
 #pragma mark Init & Dealloc
@@ -29,10 +30,10 @@ MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
 }
 
 +(instancetype)sharedManager; {
-  static _SHComposerManager * _sharedInstance;
+  static _SHComposerBlocksManager * _sharedInstance;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
-    _sharedInstance = [[_SHComposerManager alloc] init];
+    _sharedInstance = [[_SHComposerBlocksManager alloc] init];
     
   });
   
@@ -58,20 +59,31 @@ MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
 #pragma mark -
 #pragma mark Setter
 +(void)setComposerDelegate:(id<SHComposerDelegate>)theComposer;{
-  [theComposer setDelegate:[self sharedManager]];
+  _SHComposerBlocksManager * manager = [_SHComposerBlocksManager sharedManager];
+  
+  if([theComposer respondsToSelector:@selector(setMessageComposeDelegate:)])
+    [theComposer setMessageComposeDelegate:manager];
+  else if ([theComposer respondsToSelector:@selector(setMailComposeDelegate:)])
+    [theComposer setMailComposeDelegate:manager];
 }
+
 +(void)setBlock:(id)theBlock forController:(UIViewController *)theController; {
-  id block = [theBlock copy];
-  NSAssert(block, @"Must pass theBlock");
   NSAssert(theController, @"Must pass theController");
-  [[_SHComposerManager sharedManager].mapBlocks setObject:block forKey:theController];
+
+  _SHComposerBlocksManager * manager = [_SHComposerBlocksManager sharedManager];
+  
+  id block = [theBlock copy];
+  if(block)
+    [manager.mapBlocks setObject:block forKey:theController];
+  else
+    [manager.mapBlocks removeObjectForKey:theController];
 }
 
 #pragma mark - 
 #pragma mark Getter
 +(id)blockForController:(UIViewController *)theController; {
   NSAssert(theController, @"Must pass a controller to fetch blocks for");
-  return [[_SHComposerManager sharedManager].mapBlocks objectForKey:theController];
+  return [[_SHComposerBlocksManager sharedManager].mapBlocks objectForKey:theController];
 }
 
 #pragma mark -
@@ -97,17 +109,6 @@ MFMailComposeViewControllerDelegate, MFMessageComposeViewControllerDelegate>
   if(block) block(controller, result);
 
 }
-
-#pragma mark -
-#pragma mark <UINavigationControllerDelegate>
--(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated; {
-  
-}
-
--(void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated; {
-  
-}
-
 
 
 @end

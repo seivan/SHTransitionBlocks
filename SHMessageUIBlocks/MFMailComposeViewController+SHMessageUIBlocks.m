@@ -12,7 +12,7 @@
 #pragma mark Init
 +(instancetype)SH_mailComposeViewController; {
   MFMailComposeViewController * vc = [[MFMailComposeViewController alloc] init];
-  [_SHComposerManager setComposerDelegate:(id<SHComposerDelegate>)vc];
+  [_SHComposerBlocksManager setComposerDelegate:(id<SHComposerDelegate>)vc];
   return vc;
 }
 
@@ -24,14 +24,14 @@
 #pragma mark -
 #pragma mark Setters
 -(void)SH_setCompletionBlock:(SHMailComposerBlock)theBlock; {
-  [_SHComposerManager setBlock:theBlock forController:self];
+  [_SHComposerBlocksManager setBlock:theBlock forController:self];
 }
 
 
 #pragma mark -
 #pragma mark Getters
 -(SHMailComposerBlock)SH_blockCompletion; {
-  return [_SHComposerManager blockForController:self];
+  return [_SHComposerBlocksManager blockForController:self];
 }
 
 

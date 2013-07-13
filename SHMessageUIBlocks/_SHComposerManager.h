@@ -1,10 +1,14 @@
 
+@protocol MFMessageComposeViewControllerDelegate;
+@protocol MFMailComposeViewControllerDelegate;
+
 @protocol SHComposerDelegate <NSObject>
 @required
--(void)setDelegate:(id<UINavigationControllerDelegate>)theDelegate;
+-(void)setMessageComposeDelegate:(id<MFMessageComposeViewControllerDelegate>)theDelegate;
+-(void)setMailComposeDelegate:(id<MFMailComposeViewControllerDelegate>)theDelegate;
 @end
 
-@interface _SHComposerManager : NSObject
+@interface _SHComposerBlocksManager : NSObject
 #pragma mark -
 #pragma mark Class selectors
 

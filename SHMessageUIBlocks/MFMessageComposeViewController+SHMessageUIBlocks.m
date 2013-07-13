@@ -9,7 +9,7 @@
 #pragma mark Init
 +(instancetype)SH_messageComposeViewController; {
   MFMessageComposeViewController * vc = [[MFMessageComposeViewController alloc] init];
-  [_SHComposerManager setComposerDelegate:(id<SHComposerDelegate>)vc];
+  [_SHComposerBlocksManager setComposerDelegate:(id<SHComposerDelegate>)vc];
   return vc;
 }
 
@@ -20,7 +20,7 @@
 #pragma mark -
 #pragma mark Setters
 -(void)SH_setCompletionBlock:(SHMessageComposerBlock)theBlock; {
-  [_SHComposerManager setBlock:theBlock forController:self];
+  [_SHComposerBlocksManager setBlock:theBlock forController:self];
 }
 
 
@@ -28,7 +28,7 @@
 #pragma mark Getters
 
 -(SHMessageComposerBlock)SH_blockCompletion; {
-  return [_SHComposerManager blockForController:self];
+  return [_SHComposerBlocksManager blockForController:self];
 }
 
 
