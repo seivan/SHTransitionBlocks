@@ -7,7 +7,7 @@ typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigati
 @interface UINavigationController (SHNavigationControllerBlocks)
 
 #pragma mark -
-#pragma mark Init
+#pragma mark Setup
 -(void)SH_setNavigationBlocks;
 
 

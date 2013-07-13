@@ -102,13 +102,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
   }
   
   else map[theKey] = block;
-    
-
-//  if(block)
-//    [manager.mapBlocks setObject:block forKey:theController];
-//  else
-//    [manager.mapBlocks removeObjectForKey:theController];
-  
+      
 }
 
 #pragma mark -
@@ -141,7 +135,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 @implementation UINavigationController  (SHNavigationControllerBlocks)
 
 #pragma mark -
-#pragma mark Init
+#pragma mark Setup
 -(void)SH_setNavigationBlocks; {
   [SHNavigationControllerBlockManager setDelegateForController:self];
 }

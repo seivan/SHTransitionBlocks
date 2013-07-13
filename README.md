@@ -7,7 +7,7 @@ The blocks are automatically removed once they UINavigationController is gone, s
 
 ### API
 
-#### [Init](https://github.com/seivan/SHNavigationControllerBlocks#init-1)
+#### [Setup](https://github.com/seivan/SHNavigationControllerBlocks#setup-2)
 
 #### [Properties](https://github.com/seivan/SHNavigationControllerBlocks#properties-1)
 
@@ -34,41 +34,23 @@ or
 #import "SHNavigationControllerBlocks.h"
 ```
 
+You need to setup the blocks delegate by calling
+
+```objective-c
+-(void)SH_setNavigationBlocks;
+```
+
+
 API
 -----
 
-### Init
+### Setup
 
 ```objective-c
 #pragma mark -
 #pragma mark Init
-+(instancetype)SH_alertViewWithTitle:(NSString *)theTitle withMessage:(NSString *)theMessage;
+-(void)SH_setNavigationBlocks;
 
-+(instancetype)SH_alertViewWithTitle:(NSString *)theTitle
-                          andMessage:(NSString *)theMessage
-                        buttonTitles:(NSArray *)theButtonTitles
-                         cancelTitle:(NSString *)theCancelTitle
-                           withBlock:(SHAlertViewBlock)theBlock;
-
-
-```
-
-### Add
-
-```objective-c
-#pragma mark -
-#pragma mark Adding
--(NSUInteger)SH_addButtonWithTitle:(NSString *)theTitle
-                         withBlock:(SHAlertViewBlock)theBlock;
-
-
-///Will add a new cancel button and make previous cancel buttons to a normal button
--(NSUInteger)SH_addButtonCancelWithTitle:(NSString *)theTitle
-                               withBlock:(SHAlertViewBlock)theBlock;
-
-
-
-```
 
 ### Properties
 
@@ -78,50 +60,30 @@ API
 
 #pragma mark -
 #pragma mark Setters
--(void)SH_setButtonBlockForIndex:(NSUInteger)theButtonIndex
-                       withBlock:(SHAlertViewBlock)theBlock;
 
--(void)SH_setButtonCancelBlock:(SHAlertViewBlock)theBlock;
+-(void)SH_setWillShowViewControllerBlock:(SHNavigationControllerBlock)theBlock;
 
--(void)SH_setWillShowBlock:(SHAlertViewShowBlock)theBlock;
--(void)SH_setDidShowBlock:(SHAlertViewShowBlock)theBlock;
-
--(void)SH_setWillDismissBlock:(SHAlertViewDismissBlock)theBlock;
--(void)SH_setDidDismissBlock:(SHAlertViewDismissBlock)theBlock;
-
--(void)SH_setFirstButtonEnabled:(SHAlertViewFirstButtonEnabledBlock)theBlock;
+-(void)SH_setDidShowViewControllerBlock:(SHNavigationControllerBlock)theBlock;
 
 #pragma mark -
 #pragma mark Getters
--(SHAlertViewBlock)SH_blockForButtonIndex:(NSUInteger)theButtonIndex;
 
-
-@property(nonatomic,readonly) SHAlertViewBlock SH_blockForCancelButton;
-
-
-@property(nonatomic,readonly) SHAlertViewShowBlock    SH_blockWillShow;
-@property(nonatomic,readonly) SHAlertViewShowBlock    SH_blockDidShow;
-
-@property(nonatomic,readonly) SHAlertViewDismissBlock SH_blockWillDismiss;
-@property(nonatomic,readonly) SHAlertViewDismissBlock SH_blockDidDismiss;
-
-@property(nonatomic,readonly) SHAlertViewFirstButtonEnabledBlock SH_blockFirstButtonEnabled;
-
-
+@property(nonatomic,readonly) SHNavigationControllerBlock SH_blockWillShowViewController;
+@property(nonatomic,readonly) SHNavigationControllerBlock SH_blockDidShowViewController;
 ```
 
 
 Contact
 -------
 
-If you end up using SHAlertViewBlocks in a project, I'd love to hear about it.
+If you end up using SHNavigationControllerBlocks in a project, I'd love to hear about it.
 
 email: [seivan.heidari@icloud.com](mailto:seivan.heidari@icloud.com)  
 twitter: [@seivanheidari](https://twitter.com/seivanheidari)
 
 ## License
 
-SHAlertViewBlocks is © 2013 [Seivan](http://www.github.com/seivan) and may be freely
+SHNavigationControllerBlocks is © 2013 [Seivan](http://www.github.com/seivan) and may be freely
 distributed under the [MIT license](http://opensource.org/licenses/MIT).
-See the [`LICENSE.md`](https://github.com/seivan/SHAlertViewBlocks/blob/master/LICENSE.md) file.
+See the [`LICENSE.md`](https://github.com/seivan/SHNavigationControllerBlocks/blob/master/LICENSE.md) file.
 
