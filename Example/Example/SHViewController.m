@@ -9,9 +9,7 @@
 
 
 #import "SHViewController.h"
-
 #import "MFMailComposeViewController+SHMessageUIBlocks.h"
-
 #import "SHNavigationControllerBlocks.h"
 
 @interface SHViewController ()

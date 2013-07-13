@@ -7,12 +7,8 @@
 //
 
 #import "SHSecondViewController.h"
-
 #import "SHNavigationControllerBlocks.h"
-
 #import "MFMessageComposeViewController+SHMessageUIBlocks.h"
-
-#import "SHViewController.h"
 
 @interface SHSecondViewController ()
 -(void)showMessage;
