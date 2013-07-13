@@ -18,12 +18,12 @@ typedef void (^SHMessageComposerBlock)(MFMessageComposeViewController * theContr
 
 #pragma mark -
 #pragma mark Setters
--(void)SH_setCompletionBlock:(SHMessageComposerBlock)theBlock;
+-(void)SH_setComposerCompletionBlock:(SHMessageComposerBlock)theBlock;
 
 
 #pragma mark -
 #pragma mark Getters
-@property(nonatomic,readonly) SHMessageComposerBlock SH_blockCompletion;
+@property(nonatomic,readonly) SHMessageComposerBlock SH_blockComposerCompletion;
 
 
 @end

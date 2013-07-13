@@ -6,7 +6,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 @protocol SHNavigationDelegate <NSObject>
 @required
--(void)setDelegate:(id<UINavigationControllerDelegate>)theDelegate;
++(void)setDelegateForController:(UINavigationController *)theNavigationController;
 @end
 
 
@@ -22,7 +22,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 #pragma mark -
 #pragma mark Setter
-+(void)setComposerDelegate:(id<SHNavigationDelegate>)theNavigationDelegate;
++(void)setDelegateForController:(UINavigationController *)theNavigationController;
 
 +(void)setBlock:(id)theBlock
   forController:(UIViewController *)theController
@@ -42,7 +42,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
   self = [super init];
   if (self) {
     self.mapBlocks            = [NSMapTable weakToStrongObjectsMapTable];
-    [self SH_memoryDebugger];
+//    [self SH_memoryDebugger];
   }
   
   return self;
@@ -77,8 +77,8 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 #pragma mark -
 #pragma mark Setter
-+(void)setComposerDelegate:(id<SHNavigationDelegate>)theComposer;{
-  [theComposer setDelegate:[SHNavigationControllerBlockManager sharedManager]];
++(void)setDelegateForController:(UINavigationController *)theNavigationController;{
+  [theNavigationController setDelegate:[SHNavigationControllerBlockManager sharedManager]];
 }
 
 +(void)setBlock:(id)theBlock
@@ -86,7 +86,7 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
         withKey:(NSString *)theKey; {
   NSAssert(theController, @"Must pass theController");
   
-  id block = [theBlock copy];
+  SHNavigationControllerBlock block = [theBlock copy];
   
   SHNavigationControllerBlockManager * manager = [SHNavigationControllerBlockManager
                                                   sharedManager];
@@ -125,10 +125,13 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 #pragma mark -
 #pragma mark <UINavigationControllerDelegate>
 -(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated; {
-  
+  SHNavigationControllerBlock block = [navigationController SH_blockWillShowViewController];
+  if(block) block(navigationController, viewController, animated);
 }
 
 -(void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated; {
+  SHNavigationControllerBlock block = [navigationController SH_blockDidShowViewController];
+  if(block) block(navigationController, viewController, animated);
   
 }
 
@@ -138,8 +141,8 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 #pragma mark -
 #pragma mark Init
--(void)SH_setBlocks; {
-  self.delegate = [SHNavigationControllerBlockManager sharedManager];
+-(void)SH_setNavigationBlocks; {
+  [SHNavigationControllerBlockManager setDelegateForController:self];
 }
 
 

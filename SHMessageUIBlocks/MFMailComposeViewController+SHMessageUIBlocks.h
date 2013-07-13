@@ -18,11 +18,11 @@ typedef void (^SHMailComposerBlock)(MFMailComposeViewController * theController,
 
 #pragma mark -
 #pragma mark Setters
--(void)SH_setCompletionBlock:(SHMailComposerBlock)theBlock;
+-(void)SH_setComposerCompletionBlock:(SHMailComposerBlock)theBlock;
 
 
 #pragma mark -
 #pragma mark Getters
-@property(nonatomic,readonly) SHMailComposerBlock SH_blockCompletion;
+@property(nonatomic,readonly) SHMailComposerBlock SH_blockComposerCompletion;
 
 @end

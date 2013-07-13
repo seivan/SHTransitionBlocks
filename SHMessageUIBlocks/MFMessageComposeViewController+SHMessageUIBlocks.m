@@ -19,7 +19,7 @@
 
 #pragma mark -
 #pragma mark Setters
--(void)SH_setCompletionBlock:(SHMessageComposerBlock)theBlock; {
+-(void)SH_setComposerCompletionBlock:(SHMessageComposerBlock)theBlock; {
   [_SHComposerBlocksManager setBlock:theBlock forController:self];
 }
 
@@ -27,7 +27,7 @@
 #pragma mark -
 #pragma mark Getters
 
--(SHMessageComposerBlock)SH_blockCompletion; {
+-(SHMessageComposerBlock)SH_blockComposerCompletion; {
   return [_SHComposerBlocksManager blockForController:self];
 }
 
