@@ -34,7 +34,7 @@
   
   
   MFMessageComposeViewController * vc = [MFMessageComposeViewController SH_messageComposeViewController];
-  [vc SH_setNavigationBlocks];
+
   
   
   dispatch_semaphore_t semaphoreComposerComplete =  dispatch_semaphore_create(0);

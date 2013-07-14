@@ -132,6 +132,14 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 @end
 
+@interface UINavigationController (Private)
+#pragma mark -
+#pragma mark Private
+-(void)SH_setNavigationBlocks;
+
+
+@end
+
 @implementation UINavigationController  (SHNavigationControllerBlocks)
 
 #pragma mark -
@@ -148,12 +156,14 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 #pragma mark Setters
 
 -(void)SH_setWillShowViewControllerBlock:(SHNavigationControllerBlock)theBlock; {
+  [self SH_setNavigationBlocks];
   [SHNavigationControllerBlockManager setBlock:theBlock
                                  forController:self
                                        withKey:SH_blockWillShowViewController];
 }
 
 -(void)SH_setDidShowViewControllerBlock:(SHNavigationControllerBlock)theBlock; {
+  [self SH_setNavigationBlocks];
   [SHNavigationControllerBlockManager setBlock:theBlock
                                  forController:self
                                        withKey:SH_blockDidShowViewController];
