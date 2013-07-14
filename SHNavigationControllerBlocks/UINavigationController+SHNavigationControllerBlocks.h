@@ -8,10 +8,6 @@ typedef void (^SHNavigationControllerBlock)(UINavigationController * theNavigati
 
 @interface UINavigationController (SHNavigationControllerBlocks)
 
-#pragma mark -
-#pragma mark Setup
--(void)SH_setNavigationBlocks;
-
 
 #pragma mark -
 #pragma mark Properties
