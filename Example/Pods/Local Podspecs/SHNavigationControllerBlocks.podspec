@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   source_files   = "#{name}/**/*.{h,m}"
 
   s.version      = version
-  s.summary      = "Blocks for UINavigationController lifecycle willShow and didShow - swizzle free!"
+  s.summary      = "Blocks for UINavigationController life cycle willShow and didShow - swizzle free!"
   s.description  = <<-DESC
 
                     * Swizzle and junk free

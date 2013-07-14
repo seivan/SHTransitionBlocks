@@ -14,6 +14,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SHMessageUIBlocks: 4b618fb9029926fcc38c68f593b73f13e8aac501
-  SHNavigationControllerBlocks: 4d152f2cdd166a3766e0b4f16ef705eef8a6f88c
+  SHNavigationControllerBlocks: 97d2f424fe21ca47ab1c212bf904db36c72fd582
 
 COCOAPODS: 0.22.2
