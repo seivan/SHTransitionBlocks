@@ -3,11 +3,10 @@ SHNavigationControllerBlocks
 
 Overview
 --------
+Life cycle blocks for UINavigationController - willShow and didShow. 
 The blocks are automatically removed once they UINavigationController is gone, so it isn't necessary to clean up - Swizzle Free(™)
 
 ### API
-
-#### [Setup](https://github.com/seivan/SHNavigationControllerBlocks#setup-2)
 
 #### [Properties](https://github.com/seivan/SHNavigationControllerBlocks#properties-1)
 
@@ -34,25 +33,8 @@ or
 #import "SHNavigationControllerBlocks.h"
 ```
 
-You need to setup the blocks delegate by calling
-
-```objective-c
--(void)SH_setNavigationBlocks;
-```
-
-
 API
 -----
-
-### Setup
-
-```objective-c
-
-#pragma mark -
-#pragma mark Init
--(void)SH_setNavigationBlocks;
-
-```
 
 ### Properties
 
