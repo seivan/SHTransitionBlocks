@@ -41,7 +41,7 @@
   __block BOOL didShowTest          = NO;
   
   MFMailComposeViewController * vc = [MFMailComposeViewController SH_mailComposeViewController];
-  [vc SH_setNavigationBlocks];
+
   
   
   dispatch_group_t group = dispatch_group_create();
