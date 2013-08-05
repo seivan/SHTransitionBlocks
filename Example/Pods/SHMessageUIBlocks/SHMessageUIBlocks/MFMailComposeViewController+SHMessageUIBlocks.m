@@ -24,6 +24,7 @@
 #pragma mark -
 #pragma mark Setters
 -(void)SH_setComposerCompletionBlock:(SHMailComposerBlock)theBlock; {
+  [_SHComposerBlocksManager setComposerDelegate:(id<SHComposerDelegate>)self];
   [_SHComposerBlocksManager setBlock:theBlock forController:self];
 }
 

@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   KIF-next: 1c59f919ceee5999373c875832101c2fb48b5f59
   SHFastEnumerationProtocols: 5dde0d343a6bf08bf43ec5db2e6dcd9505c50d06
-  SHMessageUIBlocks: 4b618fb9029926fcc38c68f593b73f13e8aac501
+  SHMessageUIBlocks: ce969c6b678f1b0dcc6626b5c96eda3de35dd275
   SHNavigationControllerBlocks: 97d2f424fe21ca47ab1c212bf904db36c72fd582
   SHTestCaseAdditions: c19f82ab9f4963261ae1540eb1845146f24b2ff2
 

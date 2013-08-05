@@ -3,17 +3,18 @@ SHMessageUIBlocks
 
 Overview
 --------
+Composer Completion block for MFMailComposeViewController and MFMessageComposeViewController. 
 The blocks are automatically removed once the alert is gone, so it isn't necessary to clean up - Swizzle Free(™)
 
 ### API
 
-#### [Init Mail](https://github.com/seivan/SHMessageUIBlocks#init-mail-1)
+#### [Init Mail](https://github.com/cocoastevia/SHMessageUIBlocks#init-mail-1)
 
-#### [Init Message](https://github.com/seivan/SHMessageUIBlocks#init-message-1)
+#### [Properties Mail](https://github.com/cocoastevia/SHMessageUIBlocks#properties-mail-1)
 
-#### [Properties Mail](https://github.com/seivan/SHMessageUIBlocks#properties-mail-1)
+#### [Init Message](https://github.com/cocoastevia/SHMessageUIBlocks#init-message-1)
 
-#### [Properties Message](https://github.com/seivan/SHMessageUIBlocks#properties-mail-1)
+#### [Properties Message](https://github.com/cocoastevia/SHMessageUIBlocks#properties-mail-1)
 
 
 Installation
@@ -60,16 +61,6 @@ API
 
 ```
 
-### Init Message
-
-```objective-c
-#pragma mark -
-#pragma mark Init
-+(instancetype)SH_mailComposeViewController;
-
-```
-
-
 ### Properties Mail
 
 ```objective-c
@@ -94,7 +85,17 @@ typedef void (^SHMailComposerBlock)(MFMailComposeViewController * theController,
 
 ```
 
-### Block Definition Mail
+***
+
+
+### Init Message
+
+```objective-c
+#pragma mark -
+#pragma mark Init
++(instancetype)SH_messageComposeViewController;
+
+```
 
 
 ### Properties Message
@@ -135,5 +136,5 @@ twitter: [@seivanheidari](https://twitter.com/seivanheidari)
 
 SHMessageUIBlocks is © 2013 [Seivan](http://www.github.com/seivan) and may be freely
 distributed under the [MIT license](http://opensource.org/licenses/MIT).
-See the [`LICENSE.md`](https://github.com/seivan/SHMessageUIBlocks/blob/master/LICENSE.md) file.
+See the [`LICENSE.md`](https://github.com/cocoastevia/SHMessageUIBlocks/blob/master/LICENSE.md) file.
 
