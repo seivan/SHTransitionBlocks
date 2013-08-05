@@ -1,19 +1,32 @@
 PODS:
+  - KIF-next (2.0.0pre4)
+  - SHFastEnumerationProtocols (1.2.0)
   - SHMessageUIBlocks (1.0.0)
   - SHNavigationControllerBlocks (1.0.0)
+  - SHTestCaseAdditions (1.0.0)
 
 DEPENDENCIES:
+  - KIF-next
+  - SHFastEnumerationProtocols (from `https://github.com/PodFactory/SHFastEnumerationProtocols`)
   - SHMessageUIBlocks (from `https://github.com/seivan/SHMessageUIBlocks.git`)
   - SHNavigationControllerBlocks (from `../`)
+  - SHTestCaseAdditions (from `https://github.com/seivan/SHTestCaseAdditions`)
 
 EXTERNAL SOURCES:
+  SHFastEnumerationProtocols:
+    :git: https://github.com/PodFactory/SHFastEnumerationProtocols
   SHMessageUIBlocks:
     :git: https://github.com/seivan/SHMessageUIBlocks.git
   SHNavigationControllerBlocks:
     :path: ../
+  SHTestCaseAdditions:
+    :git: https://github.com/seivan/SHTestCaseAdditions
 
 SPEC CHECKSUMS:
+  KIF-next: 1c59f919ceee5999373c875832101c2fb48b5f59
+  SHFastEnumerationProtocols: 5dde0d343a6bf08bf43ec5db2e6dcd9505c50d06
   SHMessageUIBlocks: 4b618fb9029926fcc38c68f593b73f13e8aac501
   SHNavigationControllerBlocks: 97d2f424fe21ca47ab1c212bf904db36c72fd582
+  SHTestCaseAdditions: c19f82ab9f4963261ae1540eb1845146f24b2ff2
 
-COCOAPODS: 0.22.2
+COCOAPODS: 0.22.3

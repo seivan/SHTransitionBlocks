@@ -17,27 +17,27 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 +(instancetype)sharedManager;
 -(void)SH_memoryDebugger;
 
-#pragma mark -
-#pragma mark Class selectors
 
-#pragma mark -
-#pragma mark Setter
+#pragma mark - Class selectors
+
+
+#pragma mark - Setter
 +(void)setDelegateForController:(UINavigationController *)theNavigationController;
 
 +(void)setBlock:(id)theBlock
   forController:(UIViewController *)theController
         withKey:(NSString *)theKey;
 
-#pragma mark -
-#pragma mark Getter
+
+#pragma mark - Getter
 +(id)blockForController:(UIViewController *)theController withKey:(NSString *)theKey;
 
 @end
 
 @implementation SHNavigationControllerBlockManager
 
-#pragma mark -
-#pragma mark Init & Dealloc
+
+#pragma mark - Init & Dealloc
 -(instancetype)init; {
   self = [super init];
   if (self) {
@@ -61,8 +61,8 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 }
 
 
-#pragma mark -
-#pragma mark Debugger
+
+#pragma mark - Debugger
 -(void)SH_memoryDebugger; {
   double delayInSeconds = 2.0;
   dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
@@ -72,11 +72,11 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
   });
 }
 
-#pragma mark -
-#pragma mark Class selectors
 
-#pragma mark -
-#pragma mark Setter
+#pragma mark - Class selectors
+
+
+#pragma mark - Setter
 +(void)setDelegateForController:(UINavigationController *)theNavigationController;{
   [theNavigationController setDelegate:[SHNavigationControllerBlockManager sharedManager]];
 }
@@ -105,20 +105,18 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
       
 }
 
-#pragma mark -
-#pragma mark Getter
+
+#pragma mark - Getter
 +(id)blockForController:(UIViewController *)theController withKey:(NSString *)theKey; {
   NSAssert(theController, @"Must pass a controller to fetch blocks for");
   return [[[SHNavigationControllerBlockManager sharedManager].mapBlocks
           objectForKey:theController] objectForKey:theKey];
 }
 
-#pragma mark -
-#pragma mark Delegates
 
+#pragma mark - Delegates
 
-#pragma mark -
-#pragma mark <UINavigationControllerDelegate>
+#pragma mark - <UINavigationControllerDelegate>
 -(void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated; {
   SHNavigationControllerBlock block = [navigationController SH_blockWillShowViewController];
   if(block) block(navigationController, viewController, animated);
@@ -133,8 +131,8 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 @end
 
 @interface UINavigationController (Private)
-#pragma mark -
-#pragma mark Private
+
+#pragma mark - Private
 -(void)SH_setNavigationBlocks;
 
 
@@ -142,18 +140,17 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
 
 @implementation UINavigationController  (SHNavigationControllerBlocks)
 
-#pragma mark -
-#pragma mark Setup
+
+#pragma mark - Setup
 -(void)SH_setNavigationBlocks; {
   [SHNavigationControllerBlockManager setDelegateForController:self];
 }
 
 
-#pragma mark -
-#pragma mark Properties
 
-#pragma mark -
-#pragma mark Setters
+#pragma mark - Properties
+
+#pragma mark - Setters
 
 -(void)SH_setWillShowViewControllerBlock:(SHNavigationControllerBlock)theBlock; {
   [self SH_setNavigationBlocks];
@@ -170,8 +167,8 @@ static NSString * const SH_blockDidShowViewController = @"SH_blockDidShowViewCon
   
 }
 
-#pragma mark -
-#pragma mark Getters
+
+#pragma mark - Getters
 -(SHNavigationControllerBlock)SH_blockWillShowViewController; {
   return [SHNavigationControllerBlockManager blockForController:self
                                                         withKey:SH_blockWillShowViewController];
