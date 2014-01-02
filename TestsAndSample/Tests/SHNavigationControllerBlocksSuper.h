@@ -13,6 +13,14 @@
 #import "SHNavigationControllerBlocks.h"
 
 
+@interface SHTestedAnimationController : NSObject
+<UIViewControllerAnimatedTransitioning>
+@end
+
+
+
+
+
 
 
 @interface SHNavigationControllerBlocksSuper : KIFTestCase

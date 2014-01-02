@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
   s.name         = name
-  version        = "1.1.0"
+  version        = "2.0.0"
   source_files   = "#{name}/**/*.{h,m}"
 
   s.version      = version
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => git_url, :tag => version}
   
   
-  s.platform  = :ios, "6.0"
+  s.platform  = :ios, "7.0"
 
   s.source_files = source_files
   s.requires_arc = true

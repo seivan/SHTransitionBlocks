@@ -11,6 +11,15 @@
 #import "SHNavigationControllerBlocksSuper.h"
 
 
+@implementation SHTestedAnimationController
+-(NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext; {
+  return 0.3;
+}
+// This method can only  be a nop if the transition is interactive and not a percentDriven interactive transition.
+-(void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext; {
+  
+}
+@end
 
 @implementation SHNavigationControllerBlocksSuper
 
