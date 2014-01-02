@@ -20,7 +20,8 @@ Installation
 ------------
 
 ```ruby
-pod 'SHNavigationControllerBlocks'
+pod 'SHNavigationControllerBlocks' 
+pod 'SHNavigationControllerBlocks', '~> 1.0.0' # for iOS 6
 ```
 
 ***
