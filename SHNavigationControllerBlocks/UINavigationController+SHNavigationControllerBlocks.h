@@ -1,6 +1,6 @@
 
-#pragma mark -
-#pragma mark Block Def
+
+#pragma mark - Block Definitions
 typedef void (^SHNavigationControllerBlock)(UINavigationController * navigationController,
                                             UIViewController       * viewController,
                                             BOOL                      isAnimated);
@@ -45,16 +45,5 @@ typedef id<UIViewControllerAnimatedTransitioning>
 @property(nonatomic,readonly) SHNavigationControllerInteractiveTransitionBlock SH_blockInteractiveTransitioning;
 @property(nonatomic,readonly) SHNavigationControllerAnimatedTransitionBlock SH_blockAnimatedTransitioning;
 
-
-
-//- (UIInterfaceOrientation)navigationControllerPreferredInterfaceOrientationForPresentation:(UINavigationController *)navigationController NS_AVAILABLE_IOS(7_0);
-//
-//- (id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
-//                          interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController NS_AVAILABLE_IOS(7_0);
-//
-//- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
-//                                   animationControllerForOperation:(UINavigationControllerOperation)operation
-//                                                fromViewController:(UIViewController *)fromVC
-//                                                  toViewController:(UIViewController *)toVC  NS_AVAILABLE_IOS(7_0);
 
 @end
