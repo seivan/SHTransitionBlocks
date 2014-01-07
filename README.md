@@ -40,8 +40,12 @@ or
 
 ### Usage with [SHNavigationControllerBlocks](https://github.com/Seivan/SHNavigationControllerBlocks)
 
-> This makes it so any pushed controllers on a navigationController can pop itself with a left edge pan gesture. 
+> So we're going to add a pan gesture to the left edge of the navigationControllers view for popping the stack.
+This makes it so any pushed controllers on a navigationController can pop itself with a left edge pan gesture. 
 Nothing fancy in the animation itself. 
+
+You can always check the [Sample](https://github.com/seivan/SHTransitionBlocks/blob/develop/TestsAndSample/Sample/SHViewController.m)
+Just download the zip and build & run. 
 
 
 ```objective-c
@@ -49,7 +53,7 @@ Nothing fancy in the animation itself.
   [super viewDidLoad];
 ```
 
->So can add the blocks on the first view controller on the UINavigationController stack, viewDidLoad will have to do here, but you can always extract it out easy (just take the entire block!)
+>So can add the blocks on the first view controller on the UINavigationController stack, ```viewDidLoad``` will have to do here, but you can always extract it out easy (just take the entire block!)
 
 ```objective-c
   [self.navigationController SH_setAnimationDuration:0.5 withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHViewControllerAnimationCompletionBlock transitionDidComplete) {
@@ -194,47 +198,47 @@ Nothing fancy in the animation itself.
 @property(nonatomic,readonly) id<UIViewControllerContextTransitioning> transitionContext;
 @end
 
-typedef void(^SHViewControllerAnimationCompletionBlock)();
+typedef void(^SHTransitionAnimationCompletionBlock)();
 
-typedef void(^SHViewControllerContextTransitioningPreparedAnimationBlock)(UIView * containerView,
-                                                                          UIViewController * fromVC,
-                                                                          UIViewController * toVC,
-                                                                          NSTimeInterval duration,
-                                                                          id<SHViewControllerAnimatedTransitioning> transitionObject,
-                                                                          SHViewControllerAnimationCompletionBlock transitionDidComplete
+typedef void(^SHTransitionPreparedAnimationBlock)(UIView * containerView,
+                                                                   UIViewController * fromVC,
+                                                                   UIViewController * toVC,
+                                                                   NSTimeInterval duration,
+                                                                   id<SHViewControllerAnimatedTransitioning> transitionObject,
+                                                                   SHTransitionAnimationCompletionBlock transitionDidComplete
                                                                           );
 
-typedef void(^SHViewControllerContextTransitioningAnimationBlock)(id<SHViewControllerAnimatedTransitioning> transitionObject);
+typedef void(^SHTransitionAnimationBlock)(id<SHViewControllerAnimatedTransitioning> transitionObject);
 
-typedef NSTimeInterval(^SHViewControllerContextTransitioningDurationBlock)(id<SHViewControllerAnimatedTransitioning> transitionObject);
+typedef NSTimeInterval(^SHTransitionDurationBlock)(id<SHViewControllerAnimatedTransitioning> transitionObject);
 
-typedef UIGestureRecognizer *(^SHInteractiveTransitionCreateGestureRecognitionBlock)(UIScreenEdgePanGestureRecognizer * edgeRecognizer);
+typedef UIGestureRecognizer *(^SHTransitionGestureRecognizerCreationBlock)(UIScreenEdgePanGestureRecognizer * edgeRecognizer);
 
-typedef void(^SHInteractiveTransitionCallbackGestureRecognitionBlock)(UIViewController * controller,
-                                                                      UIGestureRecognizer * recognizer,
-                                                                      UIGestureRecognizerState state,
-                                                                      CGPoint location
-                                                                      );
+typedef void(^SHTransitionCallbackGestureRecognizerBlock)(UIViewController * controller,
+                                                          UIGestureRecognizer * recognizer,
+                                                          UIGestureRecognizerState state,
+                                                          CGPoint location
+                                                          );
 
 
 @interface UIViewController (SHTransitionBlocks)
 
 @property(nonatomic,strong, setter = SH_setInteractiveTransition:) UIPercentDrivenInteractiveTransition * SH_interactiveTransition;
 
--(void)SH_setInteractiveTransitionWithGestureBlock:(SHInteractiveTransitionCreateGestureRecognitionBlock)theGestureCreateBlock
-                            onGestureCallbackBlock:(SHInteractiveTransitionCallbackGestureRecognitionBlock)theGestureCallbackBlock;
+-(void)SH_setInteractiveTransitionWithGestureBlock:(SHTransitionGestureRecognizerCreationBlock)theGestureCreateBlock
+                            onGestureCallbackBlock:(SHTransitionCallbackGestureRecognizerBlock)theGestureCallbackBlock;
 
 -(id<SHViewControllerAnimatedTransitioning>)SH_animatedTransition;
 
 -(void)SH_setAnimationDuration:(NSTimeInterval)theDuration
-   withPreparedTransitionBlock:(SHViewControllerContextTransitioningPreparedAnimationBlock)theBlock;
+   withPreparedTransitionBlock:(SHTransitionPreparedAnimationBlock)theBlock;
 
--(void)SH_setAnimatedTransitionBlock:(SHViewControllerContextTransitioningAnimationBlock)theBlock;
--(void)SH_setDurationTransitionBlock:(SHViewControllerContextTransitioningDurationBlock)theBlock;
+-(void)SH_setAnimatedTransitionBlock:(SHTransitionAnimationBlock)theBlock;
+-(void)SH_setDurationTransitionBlock:(SHTransitionDurationBlock)theBlock;
 
-@property(nonatomic,readonly) SHViewControllerContextTransitioningPreparedAnimationBlock SH_blockAnimationDurationWithPreparedTransition;
-@property(nonatomic,readonly)  SHViewControllerContextTransitioningAnimationBlock SH_blockAnimatedTransition;
-@property(nonatomic,readonly)  SHViewControllerContextTransitioningDurationBlock SH_blockDurationTransition;
+@property(nonatomic,readonly) SHTransitionPreparedAnimationBlock SH_blockAnimationDurationWithPreparedTransition;
+@property(nonatomic,readonly)  SHTransitionAnimationBlock SH_blockAnimatedTransition;
+@property(nonatomic,readonly)  SHTransitionDurationBlock SH_blockDurationTransition;
 
 
 @end

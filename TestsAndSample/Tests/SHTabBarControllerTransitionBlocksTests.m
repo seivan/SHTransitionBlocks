@@ -37,7 +37,7 @@
   __weak typeof(self) weakSelf = self;
 
   __block void (^removeFirstVC)(void) = nil;
-  [self.tabCon SH_setAnimationDuration:timeInterval withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHViewControllerAnimationCompletionBlock animationDidComplete) {
+  [self.tabCon SH_setAnimationDuration:timeInterval withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHTransitionAnimationCompletionBlock animationDidComplete) {
 
     isAnimatedAsserted = YES;
     XCTAssert(containerView);
@@ -145,7 +145,7 @@
   __block BOOL isAsserted =NO;
   
   __weak typeof(self) weakSelf = self;
-  [self.tabCon SH_setAnimationDuration:0.5 withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHViewControllerAnimationCompletionBlock animationDidComplete) {
+  [self.tabCon SH_setAnimationDuration:0.5 withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHTransitionAnimationCompletionBlock animationDidComplete) {
     isAsserted = YES;
     XCTAssertNotNil(containerView);
     XCTAssertEqualObjects(fromVC, weakSelf.tabCon.viewControllers.firstObject);

@@ -16,10 +16,10 @@ SHStaticConstString(SH_AnimatedTransition);
 @property(nonatomic,strong) UIGestureRecognizer                  * gestureRecognizer;
 
 
-@property(nonatomic,copy) SHInteractiveTransitionCallbackGestureRecognitionBlock     blockOnGestureCallbackBlock;
-@property(nonatomic,copy) SHViewControllerContextTransitioningPreparedAnimationBlock blockAnimationDurationWithPreparedTransition;
-@property(nonatomic,copy) SHViewControllerContextTransitioningAnimationBlock         blockAnimatedTransition;
-@property(nonatomic,copy) SHViewControllerContextTransitioningDurationBlock          blockDurationTransition;
+@property(nonatomic,copy) SHTransitionCallbackGestureRecognizerBlock     blockOnGestureCallbackBlock;
+@property(nonatomic,copy) SHTransitionPreparedAnimationBlock blockAnimationDurationWithPreparedTransition;
+@property(nonatomic,copy) SHTransitionAnimationBlock         blockAnimatedTransition;
+@property(nonatomic,copy) SHTransitionDurationBlock          blockDurationTransition;
 
 -(void)handleGestureRecognizer:(UIGestureRecognizer *)theGestureRecognizer;
 
@@ -60,7 +60,7 @@ SHStaticConstString(SH_AnimatedTransition);
     [containerView addSubview:toVC.view];
     
     __block BOOL didCallComplete = NO;
-    SHViewControllerAnimationCompletionBlock completionBlock = ^() {
+    SHTransitionAnimationCompletionBlock completionBlock = ^() {
       [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
       didCallComplete = YES;
     };
@@ -209,8 +209,8 @@ SHStaticConstString(SH_AnimatedTransition);
   return self.SH_transition.percentDrivenInteractiveTransition;
 }
 
--(void)SH_setInteractiveTransitionWithGestureBlock:(SHInteractiveTransitionCreateGestureRecognitionBlock)theGestureCreateBlock
-                            onGestureCallbackBlock:(SHInteractiveTransitionCallbackGestureRecognitionBlock)theGestureCallbackBlock; {
+-(void)SH_setInteractiveTransitionWithGestureBlock:(SHTransitionGestureRecognizerCreationBlock)theGestureCreateBlock
+                            onGestureCallbackBlock:(SHTransitionCallbackGestureRecognizerBlock)theGestureCallbackBlock; {
 
   
   if(theGestureCreateBlock == nil) {
@@ -253,29 +253,29 @@ SHStaticConstString(SH_AnimatedTransition);
 }
 
 -(void)SH_setAnimationDuration:(NSTimeInterval)theDuration
-   withPreparedTransitionBlock:(SHViewControllerContextTransitioningPreparedAnimationBlock)theBlock; {
+   withPreparedTransitionBlock:(SHTransitionPreparedAnimationBlock)theBlock; {
   [self SH_setDurationTransitionBlock:^NSTimeInterval(id<SHViewControllerAnimatedTransitioning> transitionObject) {
     return theDuration;
   }];
   self.SH_transition.blockAnimationDurationWithPreparedTransition = theBlock;
 }
--(void)SH_setAnimatedTransitionBlock:(SHViewControllerContextTransitioningAnimationBlock)theBlock; {
+-(void)SH_setAnimatedTransitionBlock:(SHTransitionAnimationBlock)theBlock; {
   self.SH_transition.blockAnimatedTransition = theBlock;
 }
 
--(void)SH_setDurationTransitionBlock:(SHViewControllerContextTransitioningDurationBlock)theBlock; {
+-(void)SH_setDurationTransitionBlock:(SHTransitionDurationBlock)theBlock; {
   self.SH_transition.blockDurationTransition = theBlock;
 }
 
--(SHViewControllerContextTransitioningPreparedAnimationBlock)SH_blockAnimationDurationWithPreparedTransition; {
+-(SHTransitionPreparedAnimationBlock)SH_blockAnimationDurationWithPreparedTransition; {
   return self.SH_transition.blockAnimationDurationWithPreparedTransition;
 }
 
--(SHViewControllerContextTransitioningAnimationBlock)SH_blockAnimatedTransition; {
+-(SHTransitionAnimationBlock)SH_blockAnimatedTransition; {
   return self.SH_transition.blockAnimatedTransition;
 }
 
--(SHViewControllerContextTransitioningDurationBlock)SH_blockDurationTransition; {
+-(SHTransitionDurationBlock)SH_blockDurationTransition; {
   return self.SH_transition.blockDurationTransition;
 }
 

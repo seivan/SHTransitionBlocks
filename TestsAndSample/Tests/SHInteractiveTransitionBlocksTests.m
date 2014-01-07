@@ -62,7 +62,7 @@
 
   }];
   
-  [self.navCon SH_setAnimationDuration:timeInterval withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHViewControllerAnimationCompletionBlock animationDidComplete) {
+  [self.navCon SH_setAnimationDuration:timeInterval withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHTransitionAnimationCompletionBlock animationDidComplete) {
     [UIView animateWithDuration:duration animations:^{
       
     } completion:^(BOOL finished) {
