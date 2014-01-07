@@ -9,90 +9,109 @@
 
 
 #import "SHViewController.h"
-#import "MFMailComposeViewController+SHMessageUIBlocks.h"
-#import "SHNavigationControllerBlocks.h"
+#import "SHSecondViewController.h"
+#import <SHTransitionBlocks.h>
+#import  <SHNavigationControllerBlocks.h>
 
 @interface SHViewController ()
--(void)showEmail;
+
 @end
 
 @implementation SHViewController
 
--(void)viewDidLoad; {
-  [super viewDidLoad];
-  double delayInSeconds = 1.0;
-  dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-  dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-    [self showEmail];
-  });
+-(IBAction)unwinder:(UIStoryboardSegue *)sender; {
   
 }
+-(void)viewDidLoad; {
+  [super viewDidLoad];
+
+  [self.navigationController SH_setAnimationDuration:0.5 withPreparedTransitionBlock:^(UIView *containerView, UIViewController *fromVC, UIViewController *toVC, NSTimeInterval duration, id<SHViewControllerAnimatedTransitioning> transitionObject, SHViewControllerAnimationCompletionBlock transitionDidComplete) {
+    
+    if (transitionObject.isReversed == NO) {
+      toVC.view.layer.affineTransform = CGAffineTransformMakeTranslation(CGRectGetWidth(toVC.view.frame), 0);
+    }
+    else {
+      toVC.view.layer.affineTransform = CGAffineTransformMakeTranslation(-CGRectGetWidth(toVC.view.frame), 0);
+    }
+    
+    [UIView animateWithDuration:duration delay:0 options:kNilOptions  animations:^{
+      toVC.view.layer.affineTransform = CGAffineTransformIdentity;
+      
+      if(transitionObject.isReversed) {
+        CGAffineTransform t = CGAffineTransformIdentity;
+        t = CGAffineTransformMakeTranslation(CGRectGetWidth(fromVC.view.frame), 0);
+        //      fromView.layer.affineTransform = CGAffineTransformScale(t, 0.5, 0.5);
+        fromVC.view.layer.affineTransform = t;
+        
+        
+      }
+      else {
+        CGAffineTransform t = CGAffineTransformIdentity;
+        t = CGAffineTransformMakeTranslation(-CGRectGetWidth(fromVC.view.frame), 0);
+        fromVC.view.layer.affineTransform = t;
+        
+      }
+      
+      
+    } completion:^(BOOL finished) {
+      toVC.view.layer.affineTransform = CGAffineTransformIdentity;
+      fromVC.view.layer.affineTransform = CGAffineTransformIdentity;
+      transitionDidComplete();
+    }];
+
+  }];
+  
+  [self.navigationController SH_setInteractiveTransitionWithGestureBlock:^UIGestureRecognizer *(UIScreenEdgePanGestureRecognizer *edgeRecognizer) {
+    edgeRecognizer.edges = UIRectEdgeLeft;
+    return edgeRecognizer;
+  } onGestureCallbackBlock:^void(UIViewController * controller, UIGestureRecognizer *sender, UIGestureRecognizerState state, CGPoint location) {
+    UIScreenEdgePanGestureRecognizer * recognizer = (UIScreenEdgePanGestureRecognizer*)sender;
+    CGFloat progress = [recognizer translationInView:sender.view].x / (recognizer.view.bounds.size.width * 1.0);
+    progress = MIN(1.0, MAX(0.0, progress));
+    
+    if (state == UIGestureRecognizerStateBegan) {
+      // Create a interactive transition and pop the view controller
+      controller.SH_interactiveTransition = [[UIPercentDrivenInteractiveTransition alloc] init];
+      [(UINavigationController *)controller popViewControllerAnimated:YES];
+    }
+    else if (state == UIGestureRecognizerStateChanged) {
+      // Update the interactive transition's progress
+      [controller.SH_interactiveTransition updateInteractiveTransition:progress];
+    }
+    else if (state == UIGestureRecognizerStateEnded || state == UIGestureRecognizerStateCancelled) {
+      // Finish or cancel the interactive transition
+      if (progress > 0.5) {
+        [controller.SH_interactiveTransition finishInteractiveTransition];
+      }
+      else {
+        [controller.SH_interactiveTransition cancelInteractiveTransition];
+      }
+      
+      controller.SH_interactiveTransition = nil;
+    }
+  
+  }];
+  
+  [self.navigationController SH_setAnimatedControllerBlock:^id<UIViewControllerAnimatedTransitioning>(UINavigationController *navigationController, UINavigationControllerOperation operation, UIViewController *fromVC, UIViewController *toVC) {
+    navigationController.SH_animatedTransition.reversed = operation == UINavigationControllerOperationPop;
+    return navigationController.SH_animatedTransition;
+  }];
+  
+  [self.navigationController SH_setInteractiveControllerBlock:^id<UIViewControllerInteractiveTransitioning>(UINavigationController *navigationController, id<UIViewControllerAnimatedTransitioning> animationController) {
+    return navigationController.SH_interactiveTransition;
+  }];
+}
+
 
 -(void)viewDidAppear:(BOOL)animated; {
   [super viewDidAppear:animated];
   
-  
+
 }
--(void)showEmail; {
-  
-  __weak typeof(self) weakSelf = self;
-  __block BOOL composerCompleteTest = NO;
-  __block BOOL willShowTest         = NO;
-  __block BOOL didShowTest          = NO;
-  
-  MFMailComposeViewController * vc = [MFMailComposeViewController SH_mailComposeViewController];
+
 
   
   
-  dispatch_group_t group = dispatch_group_create();
   
-  dispatch_group_enter(group);
-  
-  [vc SH_setComposerCompletionBlock:^(MFMailComposeViewController *theController, MFMailComposeResult theResults, NSError *theError) {
-    
-    SHBlockAssert(theController, @"theController exists");
-    SHBlockAssert(theController.isViewLoaded, @"theController should have its view loaded");
-    
-    __weak typeof(theController) weakController = theController;
-    [theController dismissViewControllerAnimated:YES completion:^{
-      double delayInSeconds = 2.0;
-      dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-      dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        SHBlockAssert(weakController == nil, @"theController should be gone");
-      });
-      [weakSelf performSegueWithIdentifier:@"second" sender:nil];
-    }];
-    
-    composerCompleteTest = YES;
-    
-    
-    
-    dispatch_group_leave(group);
-  }];
-  
-  
-  dispatch_group_enter(group);
-  [vc SH_setWillShowViewControllerBlock:^(UINavigationController *theNavigationController, UIViewController *theViewController, BOOL isAnimated) {
-    willShowTest = YES;
-    dispatch_group_leave(group);
-  }];
-  
-  
-  dispatch_group_enter(group);
-  [vc SH_setDidShowViewControllerBlock:^(UINavigationController *theNavigationController, UIViewController *theViewController, BOOL isAnimated) {
-    didShowTest = YES;
-    dispatch_group_leave(group);
-  }];
-  
-  dispatch_group_notify(group, dispatch_get_main_queue(), ^{
-    SHBlockAssert(composerCompleteTest, @"Should call composerCompletionBlock");
-    SHBlockAssert(willShowTest, @"Should call willShowViewControllerBLock");
-    SHBlockAssert(didShowTest, @"Should call didShowViewControllerBLock");
-    
-  });
-  
-  [self presentViewController:vc animated:YES completion:nil];
-  
-  
-}
+
 @end

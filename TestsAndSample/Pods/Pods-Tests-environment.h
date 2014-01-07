@@ -30,3 +30,9 @@
 #define COCOAPODS_VERSION_MINOR_SHTestCaseAdditions_XCTest 4
 #define COCOAPODS_VERSION_PATCH_SHTestCaseAdditions_XCTest 1
 
+// SHTransitionBlocks
+#define COCOAPODS_POD_AVAILABLE_SHTransitionBlocks
+#define COCOAPODS_VERSION_MAJOR_SHTransitionBlocks 1
+#define COCOAPODS_VERSION_MINOR_SHTransitionBlocks 0
+#define COCOAPODS_VERSION_PATCH_SHTransitionBlocks 0
+
