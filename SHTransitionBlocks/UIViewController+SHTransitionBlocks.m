@@ -59,19 +59,13 @@ SHStaticConstString(SH_AnimatedTransition);
     [containerView addSubview:fromVC.view];
     [containerView addSubview:toVC.view];
     
-    __block BOOL didCallComplete = NO;
+
     SHTransitionAnimationCompletionBlock completionBlock = ^() {
       [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-      didCallComplete = YES;
+
     };
     self.blockAnimationDurationWithPreparedTransition(containerView, fromVC, toVC, transitionDuration, self, completionBlock);
     
-    double delayInSeconds = transitionDuration+5;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-      NSParameterAssert(didCallComplete);
-    });
-
   }
   
   
