@@ -7,6 +7,15 @@
 //
 
 
+@interface SHLargeBar : UINavigationBar
+@end
+
+@implementation SHLargeBar
+-(void)awakeFromNib; {
+  self.frame = CGRectMake(0, 0, 320, 100);
+}
+@end
+
 
 #import "SHViewController.h"
 #import "SHSecondViewController.h"
@@ -106,6 +115,12 @@
 -(void)viewDidAppear:(BOOL)animated; {
   [super viewDidAppear:animated];
   
+  double delayInSeconds = 2.0;
+dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+  
+  //[self.navigationController performSegueWithIdentifier:@"modal" sender:nil];
+});
 
 }
 

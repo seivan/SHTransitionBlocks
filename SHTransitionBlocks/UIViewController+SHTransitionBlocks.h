@@ -33,7 +33,8 @@ typedef void(^SHTransitionCallbackGestureRecognizerBlock)(UIViewController * con
 
 @interface UIViewController (SHTransitionBlocks)
 
-@property(nonatomic,strong, setter = SH_setInteractiveTransition:) UIPercentDrivenInteractiveTransition * SH_interactiveTransition;
+@property(nonatomic,strong, setter = SH_setInteractiveTransition:)
+UIPercentDrivenInteractiveTransition * SH_interactiveTransition;
 
 -(void)SH_setInteractiveTransitionWithGestureBlock:(SHTransitionGestureRecognizerCreationBlock)theGestureCreateBlock
                             onGestureCallbackBlock:(SHTransitionCallbackGestureRecognizerBlock)theGestureCallbackBlock;
@@ -47,8 +48,8 @@ typedef void(^SHTransitionCallbackGestureRecognizerBlock)(UIViewController * con
 -(void)SH_setDurationTransitionBlock:(SHTransitionDurationBlock)theBlock;
 
 @property(nonatomic,readonly) SHTransitionPreparedAnimationBlock SH_blockAnimationDurationWithPreparedTransition;
-@property(nonatomic,readonly)  SHTransitionAnimationBlock SH_blockAnimatedTransition;
-@property(nonatomic,readonly)  SHTransitionDurationBlock SH_blockDurationTransition;
+@property(nonatomic,readonly) SHTransitionAnimationBlock SH_blockAnimatedTransition;
+@property(nonatomic,readonly) SHTransitionDurationBlock SH_blockDurationTransition;
 
 
 @end
