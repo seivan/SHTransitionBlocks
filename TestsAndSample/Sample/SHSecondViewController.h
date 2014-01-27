@@ -7,5 +7,5 @@
 //
 
 @interface SHSecondViewController : UIViewController
-
+@property(nonatomic,strong) IBOutlet UIView * viewForToolbarButtons;
 @end

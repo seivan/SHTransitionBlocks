@@ -1,1 +1,1 @@
-../../../../SHNavigationControllerBlocks/SHNavigationControllerBlocks.h
+../../SHNavigationControllerBlocks/SHNavigationControllerBlocks/SHNavigationControllerBlocks.h

@@ -1,13 +1,11 @@
 platform :ios, '7.0' 
 
-link_with [:Sample, :Tests]
-pod 'SHNavigationControllerBlocks', :path => '../'
-
-target :Sample, :exclusive => true do
-  pod 'SHMessageUIBlocks'
-end
+#link_with [:Sample, :Tests]
+pod 'SHTransitionBlocks', :path => '../'
+pod 'SHNavigationControllerBlocks'
 
 target :Tests, :exclusive => true do
+  pod 'SHTransitionBlocks', :path => '../'
   pod 'SHTestCaseAdditions'
   pod "KIF/XCTest", :git => "https://github.com/tonyd256/KIF", :branch => "xctest"
 end

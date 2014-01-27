@@ -8,5 +8,5 @@
 
 
 @interface SHViewController : UIViewController
-
+@property(nonatomic,strong) IBOutlet UIView * viewForToolbarButtons;
 @end
