@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   source_files   = "#{name}/**/*.{h,m}"
 
   s.version      = version
-  s.summary      = "UIKit Transition API simplified and with added blocks and gestures for interaction. Works with all UIViewController subclasses."
+  s.summary      = "View Controller Transition API simplified with blocks and gestures"
   s.description  = <<-DESC
 
                     * Create transition animation via blocks
@@ -31,6 +31,8 @@ Pod::Spec.new do |s|
 
   s.source_files = source_files
   s.requires_arc = true
+  s.social_media_url = 'https://twitter.com/seivan'
+
 
 
 end
